@@ -11,6 +11,14 @@
 | `src/template.html` | 화면(CSS + JS). 데이터 자리에 `/*@@RECIPES@@*/[]` 자리표시 | UI·기능 변경 |
 | `build.py` | 검증 후 데이터를 템플릿에 넣어 `index.html` 생성 (Python 3 표준 라이브러리만) | 스키마 바꿀 때 |
 | `index.html` | 빌드 결과. 더블클릭으로 열린다 (`file://` OK) | **직접 수정 금지** — 빌드로 다시 만든다 |
+| `icons/`, `manifest.webmanifest` | 파비콘·홈 화면 아이콘. 원본은 `icons/icon.svg` | 아이콘 바꿀 때 (아래 명령으로 PNG 재생성) |
+| `.github/workflows/check.yml` | 푸시마다 `build.py --check` + `index.html` 최신 여부 검사 | 검사 규칙 바꿀 때 |
+
+## 배포
+
+- `main`에 푸시하면 GitHub Pages(https://movtrength.github.io/recipe-book/)에 1~2분 안에 반영된다.
+- CI가 실패하면(형식 오류, 또는 `index.html`을 다시 빌드하지 않음) 오류 메시지대로 고친다.
+- 아이콘 PNG 재생성: `rsvg-convert -w 192 -h 192 icons/icon.svg -o icons/icon-192.png` (512도 같은 방식). `apple-touch-icon.png`는 모서리 없는 정사각형(`rx="0"`), `icon-maskable-512.png`는 가운데 80% 안에 그림을 둔다.
 
 ## 작업 순서 (필수)
 
