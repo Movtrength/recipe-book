@@ -84,6 +84,11 @@
 85,B,False,사천 삼초계,메인,The Woks of Life,thewoksoflife.com,https://thewoksoflife.com/sichuan-three-pepper-chicken/,열량·탄수화물·단백질·나트륨·칼륨 (인 없음),원문 확인
 162,B,False,가상두부 돼지고기 두부볶음,메인,The Woks of Life,thewoksoflife.com,https://thewoksoflife.com/home-style-tofu-stir-fry/,열량·탄수화물·단백질·나트륨·칼륨 (인 없음),원문 확인
 76,B,False,데리야끼 새우,메인,The Wooden Skillet,thewoodenskillet.com,https://thewoodenskillet.com/teriyaki-shrimp/,열량·탄수화물·단백질·나트륨·칼륨 (인 없음),원문 확인
+140,D,True,치킨 파히타 (Kidney Care UK),메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/chicken-fajitas/,원문 값은 콩 버전 기준이라 두부 변형에 적용 안 됨,원문 확인
+141,D,True,치킨 핫팟,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/chicken-hotpot/,원문 값은 콩 버전 기준이라 두부 변형에 적용 안 됨,원문 확인
+147,D,True,지중해식 치킨 피타,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/mediterranean-chicken-pittas/,원문 값은 콩 버전 기준이라 두부 변형에 적용 안 됨,원문 확인
+151,D,True,소시지 앤 매시,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/sausage-and-mash/,원문 값은 콩 버전 기준이라 두부 변형에 적용 안 됨,원문 확인
+152,D,True,심플 라자냐,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/simple-lasagne/,원문 값은 콩 버전 기준이라 두부 변형에 적용 안 됨,원문 확인
 0,D,False,태국식 계란 볶음밥,밥,직접 기록,(URL 없음),,,사이트 샘플 기준
 95,D,False,치킨 알프레도 스파게티스쿼시,메인,-,(URL 없음),,,사이트 샘플 기준
 96,D,False,치킨 페타 원팬 파스타,메인,-,(URL 없음),,,사이트 샘플 기준

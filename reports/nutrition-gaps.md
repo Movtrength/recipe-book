@@ -1,16 +1,16 @@
 # 영양 정보 보완 대상
 
-레시피 420개 중 150개에 영양 정보(`nu`)가 없다 (있는 270개 출처: kidney.org 225, davita.com 24, kidneycareuk.org 18, ksn.or.kr 3).
+레시피 420개 중 155개에 영양 정보(`nu`)가 없다 (있는 265개 출처: kidney.org 225, davita.com 24, kidneycareuk.org 13, ksn.or.kr 3).
 먼저 채울 것은 A등급 0개(원문에 나트륨·칼륨·인이 있다), 다음은 B등급 콩팥 레시피 0개다.
 
-`python3 tools/nutrition_gaps.py`로 다시 만든다. 원문을 직접 연 38개는 `tools/nutrition_checked.json` 결과를, 나머지는 출처 사이트 샘플(1~2쪽) 기준 등급을 쓴다.
+`python3 tools/nutrition_gaps.py`로 다시 만든다. 원문을 직접 연 43개는 `tools/nutrition_checked.json` 결과를, 나머지는 출처 사이트 샘플(1~2쪽) 기준 등급을 쓴다.
 
 | 등급 | 뜻 | 개수 | 콩팥 레시피 | 채우는 방법 |
 | --- | --- | ---: | ---: | --- |
 | A | 원문에 신장 핵심값 | 0 | 0 | 1회분 표에 나트륨·칼륨·인까지 있음. 그대로 옮기면 된다 |
 | B | 원문에 일부 값 | 85 | 0 | 열량·탄수화물 등 일부만, 또는 칼륨·인 없음. 있는 값만 옮긴다 |
 | C | 원문 확인 필요 | 0 | 0 | 샘플을 못 봤거나 값이 있을지 불확실 |
-| D | 원문에 값 없음 | 65 | 0 | SNS·영상·개인 기록. 채우려면 식품 성분 DB로 직접 계산(추정값 표시) |
+| D | 원문에 값 없음 | 70 | 5 | SNS·영상·개인 기록. 채우려면 식품 성분 DB로 직접 계산(추정값 표시) |
 
 | 출처 | 개수 | 등급별 | 원문에 있는 값 |
 | --- | ---: | --- | --- |
@@ -19,6 +19,7 @@
 | (URL 없음) | 15 | D15 |  |
 | justonecookbook.com | 10 | B10 | 열량·나트륨·칼륨 등, 인 없음 |
 | 10000recipe.com | 9 | D9 | 영양 정보 없음 |
+| kidneycareuk.org | 5 | D5 | 원문 값은 콩 버전 기준이라 두부 변형에 적용 안 됨 |
 | rachelcooksthai.com | 3 | B3 | 열량·탄수화물·단백질·나트륨·칼륨 (인 없음) |
 | thewoksoflife.com | 3 | B3 | 열량·탄수화물·단백질·나트륨·칼륨 (인 없음) |
 | koreanbapsang.com | 3 | D3 | 영양 정보 없음 |
@@ -49,19 +50,14 @@
 - #137 BBQ 풀드포크 버거: na, k, p 없음
 - #138 브로콜리·콜리플라워 치즈: na, k, p 없음
 - #139 치킨 채소 라자냐: na, k, p 없음
-- #140 치킨 파히타 (Kidney Care UK): na, k, p 없음
-- #141 치킨 핫팟: na, k, p 없음
 - #142 치킨 브로콜리 크림 파스타: na, k, p 없음
 - #143 시금치 치즈 크림 탈리아텔레: na, k, p 없음
 - #144 바삭 채소 프리터: na, k, p 없음
 - #145 간단 소고기 채소 누들: na, k, p 없음
 - #146 그린 맥 앤 치즈: na, k, p 없음
-- #147 지중해식 치킨 피타: na, k, p 없음
 - #148 참치 올리브 푸타네스카 스파게티: na, k, p 없음
 - #149 구운 홍피망 치킨 파스타 베이크: na, k, p 없음
 - #150 소시지 앤 매시 파이: na, k, p 없음
-- #151 소시지 앤 매시: na, k, p 없음
-- #152 심플 라자냐: na, k, p 없음
 - #153 시금치 파인너트 라자냐: na, k, p 없음
 - #267 가지 딥: p 없음
 - #374 매콤 닭고기 샐러드: p 없음
@@ -172,10 +168,15 @@
 | # | 콩팥 | 요리 | 분류 | 출처 | 원문에 있는 값 |
 | ---: | :---: | --- | --- | --- | --- |
 
-## D. 원문에 값 없음 (65개)
+## D. 원문에 값 없음 (70개)
 
 | # | 콩팥 | 요리 | 분류 | 출처 | 원문에 있는 값 |
 | ---: | :---: | --- | --- | --- | --- |
+| 140 | ● | 치킨 파히타 (Kidney Care UK) | 메인 | [Kidney Care UK](https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/chicken-fajitas/) | 원문 값은 콩 버전 기준이라 두부 변형에 적용 안 됨 |
+| 141 | ● | 치킨 핫팟 | 메인 | [Kidney Care UK](https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/chicken-hotpot/) | 원문 값은 콩 버전 기준이라 두부 변형에 적용 안 됨 |
+| 147 | ● | 지중해식 치킨 피타 | 메인 | [Kidney Care UK](https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/mediterranean-chicken-pittas/) | 원문 값은 콩 버전 기준이라 두부 변형에 적용 안 됨 |
+| 151 | ● | 소시지 앤 매시 | 메인 | [Kidney Care UK](https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/sausage-and-mash/) | 원문 값은 콩 버전 기준이라 두부 변형에 적용 안 됨 |
+| 152 | ● | 심플 라자냐 | 메인 | [Kidney Care UK](https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/simple-lasagne/) | 원문 값은 콩 버전 기준이라 두부 변형에 적용 안 됨 |
 | 0 |  | 태국식 계란 볶음밥 | 밥 | 직접 기록 |  |
 | 95 |  | 치킨 알프레도 스파게티스쿼시 | 메인 | - |  |
 | 96 |  | 치킨 페타 원팬 파스타 | 메인 | - |  |
