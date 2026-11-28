@@ -20,7 +20,7 @@ jobs:
       - name: index.html is up to date
         run: |
           python3 build.py
-          if ! git diff --quiet -- index.html; then
-            echo "::error file=index.html::index.html is stale. Run 'python3 build.py' and commit the result."
+          if ! git diff --quiet -- index.html sw.js; then
+            echo "::error file=index.html::index.html or sw.js is stale. Run 'python3 build.py' and commit the result."
             exit 1
           fi

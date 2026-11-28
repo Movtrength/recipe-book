@@ -12,12 +12,15 @@
 | `build.py` | 검증 후 데이터를 템플릿에 넣어 `index.html` 생성 (Python 3 표준 라이브러리만) | 스키마 바꿀 때 |
 | `index.html` | 빌드 결과. 더블클릭으로 열린다 (`file://` OK) | **직접 수정 금지** — 빌드로 다시 만든다 |
 | `icons/`, `manifest.webmanifest` | 파비콘·홈 화면 아이콘. 원본은 `icons/icon.svg` | 아이콘 바꿀 때 (아래 명령으로 PNG 재생성) |
-| `.github/workflows/check.yml` | 푸시마다 `build.py --check` + `index.html` 최신 여부 검사 | 검사 규칙 바꿀 때 |
+| `src/sw.js` → `sw.js` | 오프라인 지원 서비스 워커. 빌드가 배포 파일 해시를 캐시 버전으로 넣는다 | 캐시 대상·전략 바꿀 때 (`sw.js`는 직접 수정 금지) |
+| `.github/workflows/check.yml` | 푸시마다 `build.py --check` + `index.html`·`sw.js` 최신 여부 검사 | 검사 규칙 바꿀 때 |
+| `tools/nutrition_gaps.py` → `reports/` | 영양 정보 없는 레시피 목록·우선순위 (`nutrition-gaps.md`, `.csv`) | 영양 정보를 채운 뒤 다시 실행 |
 
 ## 배포
 
 - `main`에 푸시하면 GitHub Pages(https://movtrength.github.io/recipe-book/)에 1~2분 안에 반영된다.
-- CI가 실패하면(형식 오류, 또는 `index.html`을 다시 빌드하지 않음) 오류 메시지대로 고친다.
+- CI가 실패하면(형식 오류, 또는 `index.html`·`sw.js`를 다시 빌드하지 않음) 오류 메시지대로 고친다.
+- 오프라인: 한 번 접속하면 앱·아이콘·사용한 글꼴이 저장돼 데이터 없이도 열린다. 새 배포는 다음 접속 때 백그라운드로 받아 그다음 접속부터 보인다. 새로 추가한 정적 파일을 오프라인에 포함하려면 `src/sw.js`의 `PRECACHE`와 `build.py`의 `SHIPPED`에 같이 넣는다.
 - 아이콘 PNG 재생성: `rsvg-convert -w 192 -h 192 icons/icon.svg -o icons/icon-192.png` (512도 같은 방식). `apple-touch-icon.png`는 모서리 없는 정사각형(`rx="0"`), `icon-maskable-512.png`는 가운데 80% 안에 그림을 둔다.
 
 ## 작업 순서 (필수)

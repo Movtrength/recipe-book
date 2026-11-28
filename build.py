@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Validate data/recipes.json and inline it into src/template.html -> index.html.
+"""Validate data/recipes.json, inline it into src/template.html -> index.html,
+and write sw.js with a cache version derived from the shipped files.
 
 Usage:
   python3 build.py            # validate + build index.html
@@ -7,6 +8,7 @@ Usage:
 
 Standard library only. No network, no dependencies.
 """
+import hashlib
 import json
 import sys
 from pathlib import Path
@@ -15,6 +17,11 @@ ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data" / "recipes.json"
 TEMPLATE = ROOT / "src" / "template.html"
 OUT = ROOT / "index.html"
+SW_SRC = ROOT / "src" / "sw.js"
+SW_OUT = ROOT / "sw.js"
+# Files the service worker precaches; their contents decide the cache version.
+SHIPPED = ["index.html", "manifest.webmanifest", "icons/icon.svg", "icons/icon-192.png",
+           "icons/icon-512.png", "icons/icon-maskable-512.png", "icons/apple-touch-icon.png"]
 PLACEHOLDER = "/*@@RECIPES@@*/[]"
 
 CATEGORIES = ["아침", "밥", "면", "국", "메인", "반찬", "샐러드", "소스", "간식", "디저트", "음료", "기타"]
@@ -127,6 +134,12 @@ def main():
     payload = json.dumps(recipes, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     OUT.write_text(tpl.replace(PLACEHOLDER, payload), encoding="utf-8")
     print(f"built {OUT.relative_to(ROOT)} ({OUT.stat().st_size:,} bytes)")
+    h = hashlib.sha256()
+    for rel in SHIPPED:
+        h.update(rel.encode() + b"\0" + (ROOT / rel).read_bytes())
+    version = h.hexdigest()[:12]
+    SW_OUT.write_text(SW_SRC.read_text(encoding="utf-8").replace("@@VERSION@@", version), encoding="utf-8")
+    print(f"built sw.js (cache {version})")
     return 0
 
 

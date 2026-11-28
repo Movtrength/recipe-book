@@ -349,6 +349,8 @@ $("tabs").addEventListener("click",e=>{const b=e.target.closest(".tab");if(!b)re
 $("q").addEventListener("input",e=>{query=e.target.value;filter();renderToc();});
 window.addEventListener("hashchange",()=>{renderPage();renderToc();window.scrollTo(0,0);});
 filter();renderTabs();renderToc();renderPage();
+/* Offline: sw.js caches the app after the first visit. Skipped when opened as a local file. */
+if("serviceWorker" in navigator && location.protocol!=="file:"){addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));}
 </script>
 </body>
 </html>
