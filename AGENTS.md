@@ -17,6 +17,8 @@
 | `tools/nutrition_gaps.py` → `reports/` | 영양 정보 없는 레시피 목록·우선순위 (`nutrition-gaps.md`, `.csv`) | 영양 정보를 채운 뒤 다시 실행 |
 | `tools/probe_nutrition.py` → `tools/nutrition_checked.json` | 출처 페이지를 열어 영양 표 유무 확인 (등급 근거). 결과는 사람이 검토 후 json에 반영 | 다른 등급 원문을 확인할 때 (`python3 tools/probe_nutrition.py /tmp/out.json B`) |
 | `tools/estimate_nutrition.py` | 원문에 영양 정보가 없는 레시피를 재료량 × 식품 성분 DB로 계산 (재료→DB 항목·g 환산이 코드에 있음) | 계산 대상 추가 (`python3 tools/estimate_nutrition.py 원재료성식품.csv --apply`) |
+| `tools/wprm_nutrition.py` | WP Recipe Maker 블로그의 영양 라벨 추출 (검토용 JSON) | 다른 블로그 B등급 값을 옮길 때 (`python3 tools/wprm_nutrition.py /tmp/out.json 도메인`) |
+| `tools/split_amounts.py` | 재료 이름 안에 적힌 양('닭가슴살 200g')을 양·단위 칸으로 분리해 인분 환산이 되게 함 | 양이 이름에 묻힌 레시피를 고칠 때 (미리보기 후 `--apply`) |
 | `tools/davita_nutrition.py` | DaVita 원문 영양 표 추출 (검토용 JSON만 쓰고 데이터는 안 고침) | DaVita 값을 다시 받을 때 |
 
 ## 배포
@@ -64,6 +66,7 @@
 ## 원칙
 
 - 영양 수치·출처는 원문에 있는 값만 넣는다. 추정값은 `notes`에 "제안값"이라고 밝힌다.
+- 재료를 바꾼 변형 레시피(재료 메모에 〔…변형…〕 표시)에는 원문 영양값을 넣지 않는다. 원문 값은 원래 재료 기준이다.
 - 레시피 하나 = 한 줄 형식을 유지한다 (diff·grep이 쉽다).
 - 외부 의존성은 Google Fonts뿐이다. 오프라인이면 시스템 글꼴로 대체되고 기능은 그대로다.
 - 데이터는 브라우저 안에서만 쓰인다. 서버·API·로그인·AI 호출이 없다.
