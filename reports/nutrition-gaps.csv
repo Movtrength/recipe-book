@@ -1,28 +1,4 @@
 ﻿id,tier,kid,title,category,source,domain,url,offers
-112,A,True,아몬드·크랜베리 셀러리 스틱,간식,DaVita,davita.com,https://davita.com/diet-nutrition/recipes/appetizers-snacks/almond-cranberry-celery-logs,Na·K·P·Ca·단백질 등 전체 표
-113,A,True,올아메리칸 미트로프,메인,DaVita,davita.com,https://davita.com/diet-nutrition/recipes/beef-lamb-pork/all-american-meatloaf,Na·K·P·Ca·단백질 등 전체 표
-114,A,True,브로콜리 소고기 볶음,메인,DaVita,davita.com,https://davita.com/diet-nutrition/recipes/beef-lamb-pork/broccoli-and-beef-stir-fry,Na·K·P·Ca·단백질 등 전체 표
-115,A,True,매콤 바질 소고기 볶음,메인,DaVita,davita.com,https://davita.com/diet-nutrition/recipes/beef-lamb-pork/spicy-basil-beef-stir-fry,Na·K·P·Ca·단백질 등 전체 표
-116,A,True,아사이 베리 스무디 볼,간식,DaVita,davita.com,https://davita.com/diet-nutrition/recipes/breakfast-brunch/acai-berry-smoothie-bowl,Na·K·P·Ca·단백질 등 전체 표
-117,A,True,딸기 치아 오버나이트 오트밀,간식,DaVita,davita.com,https://davita.com/diet-nutrition/recipes/breakfast-brunch/strawberry-chia-overnight-oats,Na·K·P·Ca·단백질 등 전체 표
-118,A,True,아시안 치킨 볶음과 코울슬로 팬케이크,메인,DaVita,davita.com,https://davita.com/diet-nutrition/recipes/chicken-turkey/asian-chicken-stir-fry-with-coleslaw-pancakes,Na·K·P·Ca·단백질 등 전체 표
-119,A,True,크록포트 치킨,메인,DaVita,davita.com,https://davita.com/diet-nutrition/recipes/chicken-turkey/crock-pot-chicken,Na·K·P·Ca·단백질 등 전체 표
-120,A,True,간단 치킨 볶음,메인,DaVita,davita.com,https://davita.com/diet-nutrition/recipes/chicken-turkey/speedy-chicken-stir-fry,Na·K·P·Ca·단백질 등 전체 표
-121,A,True,시판보다 나은 라이스 필라프,밥,DaVita,davita.com,https://davita.com/diet-nutrition/recipes/pasta-rice-grains/better-than-packaged-rice-pilaf,Na·K·P·Ca·단백질 등 전체 표
-122,A,True,에어프라이어 베이글 미니 피자,간식,DaVita,davita.com,https://davita.com/diet-nutrition/recipes/pizza-sandwiches/air-fryer-bagel-big-bites,Na·K·P·Ca·단백질 등 전체 표
-123,A,True,당근 레몬 샐러드,반찬,DaVita,davita.com,https://davita.com/diet-nutrition/recipes/salads-dressings/carrot-and-lemon-salad,Na·K·P·Ca·단백질 등 전체 표
-124,A,True,파인애플 코울슬로,반찬,DaVita,davita.com,https://davita.com/diet-nutrition/recipes/salads-dressings/pineapple-slaw,Na·K·P·Ca·단백질 등 전체 표
-125,A,True,알프레도 소스,소스,DaVita,davita.com,https://davita.com/diet-nutrition/recipes/sauces-seasonings/alfredo-sauce,Na·K·P·Ca·단백질 등 전체 표
-126,A,True,그릴 치킨 마리네이드,소스,DaVita,davita.com,https://davita.com/diet-nutrition/recipes/sauces-seasonings/marinade-for-grilled-chicken,Na·K·P·Ca·단백질 등 전체 표
-127,A,True,시트러스 연어,메인,DaVita,davita.com,https://davita.com/diet-nutrition/recipes/seafood/citrus-salmon,Na·K·P·Ca·단백질 등 전체 표
-128,A,True,빠르고 맛있는 그릴 연어,메인,DaVita,davita.com,https://davita.com/diet-nutrition/recipes/seafood/fast-and-flavorful-grilled-salmon,Na·K·P·Ca·단백질 등 전체 표
-129,A,True,그릴 연어,메인,DaVita,davita.com,https://davita.com/diet-nutrition/recipes/seafood/grilled-salmon,Na·K·P·Ca·단백질 등 전체 표
-130,A,True,허니 스파이스 연어,메인,DaVita,davita.com,https://davita.com/diet-nutrition/recipes/seafood/honey-spice-rubbed-salmon,Na·K·P·Ca·단백질 등 전체 표
-131,A,True,연어와 여름 호박 딜 비네그레트,메인,DaVita,davita.com,https://davita.com/diet-nutrition/recipes/seafood/salmon-and-summer-squash-with-dill-vinaigrette,Na·K·P·Ca·단백질 등 전체 표
-132,A,True,허브 드레싱 연어 스테이크,메인,DaVita,davita.com,https://davita.com/diet-nutrition/recipes/seafood/salmon-steaks-with-herb-dressing,Na·K·P·Ca·단백질 등 전체 표
-133,A,True,옛날식 연어 수프,국,DaVita,davita.com,https://davita.com/diet-nutrition/recipes/soups-stews/old-fashioned-salmon-soup,Na·K·P·Ca·단백질 등 전체 표
-134,A,True,바삭 두부 볶음,메인,DaVita,davita.com,https://davita.com/diet-nutrition/recipes/vegetables/crunchy-tofu-stir-fry,Na·K·P·Ca·단백질 등 전체 표
-135,A,True,야채 볶음,반찬,DaVita,davita.com,https://davita.com/diet-nutrition/recipes/vegetables/stir-fry-vegetables,Na·K·P·Ca·단백질 등 전체 표
 136,B,True,아라비아타 소시지 파스타,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/arrabbiata-pasta-with-sausages/,kcal·탄수화물 + 저염/저칼륨/저인 표시
 137,B,True,BBQ 풀드포크 버거,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/bbq-pulled-pork-burgers/,kcal·탄수화물 + 저염/저칼륨/저인 표시
 138,B,True,브로콜리·콜리플라워 치즈,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/broc-cauli-cheese/,kcal·탄수화물 + 저염/저칼륨/저인 표시

@@ -1,13 +1,13 @@
 # 영양 정보 보완 대상
 
-레시피 420개 중 196개에 영양 정보(`nu`)가 없다. 값이 있는 224개는 모두 kidney.org 출처다.
+레시피 420개 중 172개에 영양 정보(`nu`)가 없다. 값이 있는 248개는 모두 kidney.org 출처다.
 먼저 채울 것은 **A등급 24개**(DaVita, 원문에 나트륨·칼륨·인 표가 있다)이고, 그중 콩팥 레시피부터 한다.
 
 `python3 tools/nutrition_gaps.py`로 다시 만든다. 등급은 출처 사이트별로 매겼고, 사이트마다 1~2쪽만 확인했다.
 
 | 등급 | 뜻 | 개수 | 콩팥 레시피 | 채우는 방법 |
 | --- | --- | ---: | ---: | --- |
-| A | 원문에 신장 핵심값 | 24 | 24 | 1회분 표에 나트륨·칼륨·인까지 있음. 그대로 옮기면 된다 |
+| A | 원문에 신장 핵심값 | 0 | 0 | 1회분 표에 나트륨·칼륨·인까지 있음. 그대로 옮기면 된다 |
 | B | 원문에 일부 값 | 84 | 18 | 열량·탄수화물 등 일부만, 또는 칼륨·인 없음. 있는 값만 옮긴다 |
 | C | 원문 확인 필요 | 42 | 4 | 샘플을 못 봤거나 값이 있을지 불확실 |
 | D | 원문에 값 없음 | 46 | 0 | SNS·영상·개인 기록. 채우려면 식품 성분 DB로 직접 계산(추정값 표시) |
@@ -15,7 +15,6 @@
 | 출처 | 개수 | 등급 | 원문에 있는 값 |
 | --- | ---: | :---: | --- |
 | dishingouthealth.com | 56 | B | 열량·나트륨 등 (저자 계산), 인 없음 |
-| davita.com | 24 | A | Na·K·P·Ca·단백질 등 전체 표 |
 | instagram.com | 24 | D |  |
 | kidneycareuk.org | 18 | B | kcal·탄수화물 + 저염/저칼륨/저인 표시 |
 | (URL 없음) | 15 | D |  |
@@ -58,34 +57,10 @@
 - D를 계산으로 채울 때는 `nu.approx: true`로 두고 `notes`에 계산 근거(사용한 DB)를 남긴다.
 - 출처에 없는 값을 추정해서 A·B 레시피에 섞지 않는다.
 
-## A. 원문에 신장 핵심값 (24개)
+## A. 원문에 신장 핵심값 (0개)
 
 | # | 콩팥 | 요리 | 분류 | 출처 |
 | ---: | :---: | --- | --- | --- |
-| 112 | ● | 아몬드·크랜베리 셀러리 스틱 | 간식 | [DaVita](https://davita.com/diet-nutrition/recipes/appetizers-snacks/almond-cranberry-celery-logs) |
-| 113 | ● | 올아메리칸 미트로프 | 메인 | [DaVita](https://davita.com/diet-nutrition/recipes/beef-lamb-pork/all-american-meatloaf) |
-| 114 | ● | 브로콜리 소고기 볶음 | 메인 | [DaVita](https://davita.com/diet-nutrition/recipes/beef-lamb-pork/broccoli-and-beef-stir-fry) |
-| 115 | ● | 매콤 바질 소고기 볶음 | 메인 | [DaVita](https://davita.com/diet-nutrition/recipes/beef-lamb-pork/spicy-basil-beef-stir-fry) |
-| 116 | ● | 아사이 베리 스무디 볼 | 간식 | [DaVita](https://davita.com/diet-nutrition/recipes/breakfast-brunch/acai-berry-smoothie-bowl) |
-| 117 | ● | 딸기 치아 오버나이트 오트밀 | 간식 | [DaVita](https://davita.com/diet-nutrition/recipes/breakfast-brunch/strawberry-chia-overnight-oats) |
-| 118 | ● | 아시안 치킨 볶음과 코울슬로 팬케이크 | 메인 | [DaVita](https://davita.com/diet-nutrition/recipes/chicken-turkey/asian-chicken-stir-fry-with-coleslaw-pancakes) |
-| 119 | ● | 크록포트 치킨 | 메인 | [DaVita](https://davita.com/diet-nutrition/recipes/chicken-turkey/crock-pot-chicken) |
-| 120 | ● | 간단 치킨 볶음 | 메인 | [DaVita](https://davita.com/diet-nutrition/recipes/chicken-turkey/speedy-chicken-stir-fry) |
-| 121 | ● | 시판보다 나은 라이스 필라프 | 밥 | [DaVita](https://davita.com/diet-nutrition/recipes/pasta-rice-grains/better-than-packaged-rice-pilaf) |
-| 122 | ● | 에어프라이어 베이글 미니 피자 | 간식 | [DaVita](https://davita.com/diet-nutrition/recipes/pizza-sandwiches/air-fryer-bagel-big-bites) |
-| 123 | ● | 당근 레몬 샐러드 | 반찬 | [DaVita](https://davita.com/diet-nutrition/recipes/salads-dressings/carrot-and-lemon-salad) |
-| 124 | ● | 파인애플 코울슬로 | 반찬 | [DaVita](https://davita.com/diet-nutrition/recipes/salads-dressings/pineapple-slaw) |
-| 125 | ● | 알프레도 소스 | 소스 | [DaVita](https://davita.com/diet-nutrition/recipes/sauces-seasonings/alfredo-sauce) |
-| 126 | ● | 그릴 치킨 마리네이드 | 소스 | [DaVita](https://davita.com/diet-nutrition/recipes/sauces-seasonings/marinade-for-grilled-chicken) |
-| 127 | ● | 시트러스 연어 | 메인 | [DaVita](https://davita.com/diet-nutrition/recipes/seafood/citrus-salmon) |
-| 128 | ● | 빠르고 맛있는 그릴 연어 | 메인 | [DaVita](https://davita.com/diet-nutrition/recipes/seafood/fast-and-flavorful-grilled-salmon) |
-| 129 | ● | 그릴 연어 | 메인 | [DaVita](https://davita.com/diet-nutrition/recipes/seafood/grilled-salmon) |
-| 130 | ● | 허니 스파이스 연어 | 메인 | [DaVita](https://davita.com/diet-nutrition/recipes/seafood/honey-spice-rubbed-salmon) |
-| 131 | ● | 연어와 여름 호박 딜 비네그레트 | 메인 | [DaVita](https://davita.com/diet-nutrition/recipes/seafood/salmon-and-summer-squash-with-dill-vinaigrette) |
-| 132 | ● | 허브 드레싱 연어 스테이크 | 메인 | [DaVita](https://davita.com/diet-nutrition/recipes/seafood/salmon-steaks-with-herb-dressing) |
-| 133 | ● | 옛날식 연어 수프 | 국 | [DaVita](https://davita.com/diet-nutrition/recipes/soups-stews/old-fashioned-salmon-soup) |
-| 134 | ● | 바삭 두부 볶음 | 메인 | [DaVita](https://davita.com/diet-nutrition/recipes/vegetables/crunchy-tofu-stir-fry) |
-| 135 | ● | 야채 볶음 | 반찬 | [DaVita](https://davita.com/diet-nutrition/recipes/vegetables/stir-fry-vegetables) |
 
 ## B. 원문에 일부 값 (84개)
 
