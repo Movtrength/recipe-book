@@ -1,6 +1,6 @@
-/* Offline support. Built by build.py: cb2ecfe8fa49 is a hash of the shipped files,
+/* Offline support. Built by build.py: 76600d376ad5 is a hash of the shipped files,
    so every deploy installs a fresh cache and drops the old one. */
-const VERSION = "cb2ecfe8fa49";
+const VERSION = "76600d376ad5";
 const APP = "app-" + VERSION;
 const FONTS = "fonts-v1";
 const PRECACHE = [

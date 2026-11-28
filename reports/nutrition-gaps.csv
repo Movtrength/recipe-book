@@ -1,23 +1,4 @@
 ﻿id,tier,kid,title,category,source,domain,url,offers,checked
-269,A,True,피에스타 샐러드,샐러드,National Kidney Foundation,kidney.org,https://www.kidney.org/nutrition/recipes/fiesta-salad,열량·탄수화물·단백질·나트륨·칼륨·인,원문 확인
-136,B,True,아라비아타 소시지 파스타,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/arrabbiata-pasta-with-sausages/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
-137,B,True,BBQ 풀드포크 버거,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/bbq-pulled-pork-burgers/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
-138,B,True,브로콜리·콜리플라워 치즈,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/broc-cauli-cheese/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
-139,B,True,치킨 채소 라자냐,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/chicken-and-vegetable-lasagne/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
-140,B,True,치킨 파히타 (Kidney Care UK),메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/chicken-fajitas/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
-141,B,True,치킨 핫팟,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/chicken-hotpot/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
-142,B,True,치킨 브로콜리 크림 파스타,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/creamy-pasta-with-chicken-and-broccoli/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
-143,B,True,시금치 치즈 크림 탈리아텔레,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/creamy-spinach-and-cheese-tagliatelle/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
-144,B,True,바삭 채소 프리터,반찬,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/crispy-vegetable-fritters/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
-145,B,True,간단 소고기 채소 누들,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/easy-beef-and-vegetable-noodles/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
-146,B,True,그린 맥 앤 치즈,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/green-mac-and-cheese/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
-147,B,True,지중해식 치킨 피타,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/mediterranean-chicken-pittas/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
-148,B,True,참치 올리브 푸타네스카 스파게티,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/puttanesca-spaghetti-with-tuna-and-olives/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
-149,B,True,구운 홍피망 치킨 파스타 베이크,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/roasted-red-pepper-and-chicken-pasta-bake/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
-150,B,True,소시지 앤 매시 파이,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/sausage-and-mash-pie/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
-151,B,True,소시지 앤 매시,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/sausage-and-mash/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
-152,B,True,심플 라자냐,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/simple-lasagne/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
-153,B,True,시금치 파인너트 라자냐,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/spinach-and-pine-nut-lasagne/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
 78,B,False,된장 닭구이,메인,Aaron and Claire,aaronandclaire.com,https://aaronandclaire.com/doenjang-dakgui-doenjang-marinated-chicken/,열량·탄수화물·단백질·나트륨·칼륨 (인 없음),원문 확인
 81,B,False,두반장 생선조림,메인,China Sichuan Food,chinasichuanfood.com,https://www.chinasichuanfood.com/braised-spicy-fish-sichuan-style/,열량·탄수화물·단백질·나트륨·칼륨 (인 없음),원문 확인
 86,B,False,사천식 소고기 셀러리 볶음,메인,China Sichuan Food,chinasichuanfood.com,https://www.chinasichuanfood.com/shredded-beef-szechuan-style/,열량·탄수화물·단백질·나트륨·칼륨 (인 없음),원문 확인

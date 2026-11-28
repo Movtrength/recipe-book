@@ -1,14 +1,14 @@
 # 영양 정보 보완 대상
 
-레시피 420개 중 172개에 영양 정보(`nu`)가 없다 (있는 248개 출처: kidney.org 224, davita.com 24).
-먼저 채울 것은 A등급 1개(원문에 나트륨·칼륨·인이 있다), 다음은 B등급 콩팥 레시피 18개다.
+레시피 420개 중 153개에 영양 정보(`nu`)가 없다 (있는 267개 출처: kidney.org 225, davita.com 24, kidneycareuk.org 18).
+먼저 채울 것은 A등급 0개(원문에 나트륨·칼륨·인이 있다), 다음은 B등급 콩팥 레시피 0개다.
 
-`python3 tools/nutrition_gaps.py`로 다시 만든다. 원문을 직접 연 42개는 `tools/nutrition_checked.json` 결과를, 나머지는 출처 사이트 샘플(1~2쪽) 기준 등급을 쓴다.
+`python3 tools/nutrition_gaps.py`로 다시 만든다. 원문을 직접 연 41개는 `tools/nutrition_checked.json` 결과를, 나머지는 출처 사이트 샘플(1~2쪽) 기준 등급을 쓴다.
 
 | 등급 | 뜻 | 개수 | 콩팥 레시피 | 채우는 방법 |
 | --- | --- | ---: | ---: | --- |
-| A | 원문에 신장 핵심값 | 1 | 1 | 1회분 표에 나트륨·칼륨·인까지 있음. 그대로 옮기면 된다 |
-| B | 원문에 일부 값 | 103 | 18 | 열량·탄수화물 등 일부만, 또는 칼륨·인 없음. 있는 값만 옮긴다 |
+| A | 원문에 신장 핵심값 | 0 | 0 | 1회분 표에 나트륨·칼륨·인까지 있음. 그대로 옮기면 된다 |
+| B | 원문에 일부 값 | 85 | 0 | 열량·탄수화물 등 일부만, 또는 칼륨·인 없음. 있는 값만 옮긴다 |
 | C | 원문 확인 필요 | 0 | 0 | 샘플을 못 봤거나 값이 있을지 불확실 |
 | D | 원문에 값 없음 | 68 | 3 | SNS·영상·개인 기록. 채우려면 식품 성분 DB로 직접 계산(추정값 표시) |
 
@@ -16,7 +16,6 @@
 | --- | ---: | --- | --- |
 | dishingouthealth.com | 56 | B56 | 열량·나트륨 등 (저자 계산), 인 없음 |
 | instagram.com | 24 | D24 |  |
-| kidneycareuk.org | 18 | B18 | kcal·탄수화물 + 저염/저칼륨/저인 표시 |
 | (URL 없음) | 15 | D15 |  |
 | justonecookbook.com | 10 | B10 | 열량·나트륨·칼륨 등, 인 없음 |
 | 10000recipe.com | 9 | D9 | 영양 정보 없음 |
@@ -29,7 +28,6 @@
 | chinasichuanfood.com | 2 | B2 | 열량·탄수화물·단백질·나트륨·칼륨 (인 없음) |
 | hungryinthailand.com | 2 | B2 | 열량·탄수화물·단백질·나트륨·칼륨 (인 없음) |
 | recipetineats.com | 2 | B2 | 열량 (인 없음) |
-| kidney.org | 1 | A1 | 열량·탄수화물·단백질·나트륨·칼륨·인 |
 | aaronandclaire.com | 1 | B1 | 열량·탄수화물·단백질·나트륨·칼륨 (인 없음) |
 | christieathome.com | 1 | B1 | 열량·탄수화물·단백질·나트륨·칼륨 (인 없음) |
 | pupswithchopsticks.com | 1 | B1 | 열량·탄수화물·단백질·나트륨 (인 없음) |
@@ -48,6 +46,24 @@
 
 값은 있지만 신장 핵심값이 빠진 레시피:
 
+- #136 아라비아타 소시지 파스타: na, k, p 없음
+- #137 BBQ 풀드포크 버거: na, k, p 없음
+- #138 브로콜리·콜리플라워 치즈: na, k, p 없음
+- #139 치킨 채소 라자냐: na, k, p 없음
+- #140 치킨 파히타 (Kidney Care UK): na, k, p 없음
+- #141 치킨 핫팟: na, k, p 없음
+- #142 치킨 브로콜리 크림 파스타: na, k, p 없음
+- #143 시금치 치즈 크림 탈리아텔레: na, k, p 없음
+- #144 바삭 채소 프리터: na, k, p 없음
+- #145 간단 소고기 채소 누들: na, k, p 없음
+- #146 그린 맥 앤 치즈: na, k, p 없음
+- #147 지중해식 치킨 피타: na, k, p 없음
+- #148 참치 올리브 푸타네스카 스파게티: na, k, p 없음
+- #149 구운 홍피망 치킨 파스타 베이크: na, k, p 없음
+- #150 소시지 앤 매시 파이: na, k, p 없음
+- #151 소시지 앤 매시: na, k, p 없음
+- #152 심플 라자냐: na, k, p 없음
+- #153 시금치 파인너트 라자냐: na, k, p 없음
 - #267 가지 딥: p 없음
 - #374 매콤 닭고기 샐러드: p 없음
 
@@ -57,34 +73,15 @@
 - D를 계산으로 채울 때는 `nu.approx: true`로 두고 `notes`에 계산 근거(사용한 DB)를 남긴다.
 - 출처에 없는 값을 추정해서 A·B 레시피에 섞지 않는다.
 
-## A. 원문에 신장 핵심값 (1개)
+## A. 원문에 신장 핵심값 (0개)
 
 | # | 콩팥 | 요리 | 분류 | 출처 | 원문에 있는 값 |
 | ---: | :---: | --- | --- | --- | --- |
-| 269 | ● | 피에스타 샐러드 | 샐러드 | [National Kidney Foundation](https://www.kidney.org/nutrition/recipes/fiesta-salad) | 열량·탄수화물·단백질·나트륨·칼륨·인 |
 
-## B. 원문에 일부 값 (103개)
+## B. 원문에 일부 값 (85개)
 
 | # | 콩팥 | 요리 | 분류 | 출처 | 원문에 있는 값 |
 | ---: | :---: | --- | --- | --- | --- |
-| 136 | ● | 아라비아타 소시지 파스타 | 메인 | [Kidney Care UK](https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/arrabbiata-pasta-with-sausages/) | kcal·탄수화물 + 저염/저칼륨/저인 표시 (사이트 샘플 기준) |
-| 137 | ● | BBQ 풀드포크 버거 | 메인 | [Kidney Care UK](https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/bbq-pulled-pork-burgers/) | kcal·탄수화물 + 저염/저칼륨/저인 표시 (사이트 샘플 기준) |
-| 138 | ● | 브로콜리·콜리플라워 치즈 | 메인 | [Kidney Care UK](https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/broc-cauli-cheese/) | kcal·탄수화물 + 저염/저칼륨/저인 표시 (사이트 샘플 기준) |
-| 139 | ● | 치킨 채소 라자냐 | 메인 | [Kidney Care UK](https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/chicken-and-vegetable-lasagne/) | kcal·탄수화물 + 저염/저칼륨/저인 표시 (사이트 샘플 기준) |
-| 140 | ● | 치킨 파히타 (Kidney Care UK) | 메인 | [Kidney Care UK](https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/chicken-fajitas/) | kcal·탄수화물 + 저염/저칼륨/저인 표시 (사이트 샘플 기준) |
-| 141 | ● | 치킨 핫팟 | 메인 | [Kidney Care UK](https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/chicken-hotpot/) | kcal·탄수화물 + 저염/저칼륨/저인 표시 (사이트 샘플 기준) |
-| 142 | ● | 치킨 브로콜리 크림 파스타 | 메인 | [Kidney Care UK](https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/creamy-pasta-with-chicken-and-broccoli/) | kcal·탄수화물 + 저염/저칼륨/저인 표시 (사이트 샘플 기준) |
-| 143 | ● | 시금치 치즈 크림 탈리아텔레 | 메인 | [Kidney Care UK](https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/creamy-spinach-and-cheese-tagliatelle/) | kcal·탄수화물 + 저염/저칼륨/저인 표시 (사이트 샘플 기준) |
-| 144 | ● | 바삭 채소 프리터 | 반찬 | [Kidney Care UK](https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/crispy-vegetable-fritters/) | kcal·탄수화물 + 저염/저칼륨/저인 표시 (사이트 샘플 기준) |
-| 145 | ● | 간단 소고기 채소 누들 | 메인 | [Kidney Care UK](https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/easy-beef-and-vegetable-noodles/) | kcal·탄수화물 + 저염/저칼륨/저인 표시 (사이트 샘플 기준) |
-| 146 | ● | 그린 맥 앤 치즈 | 메인 | [Kidney Care UK](https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/green-mac-and-cheese/) | kcal·탄수화물 + 저염/저칼륨/저인 표시 (사이트 샘플 기준) |
-| 147 | ● | 지중해식 치킨 피타 | 메인 | [Kidney Care UK](https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/mediterranean-chicken-pittas/) | kcal·탄수화물 + 저염/저칼륨/저인 표시 (사이트 샘플 기준) |
-| 148 | ● | 참치 올리브 푸타네스카 스파게티 | 메인 | [Kidney Care UK](https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/puttanesca-spaghetti-with-tuna-and-olives/) | kcal·탄수화물 + 저염/저칼륨/저인 표시 (사이트 샘플 기준) |
-| 149 | ● | 구운 홍피망 치킨 파스타 베이크 | 메인 | [Kidney Care UK](https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/roasted-red-pepper-and-chicken-pasta-bake/) | kcal·탄수화물 + 저염/저칼륨/저인 표시 (사이트 샘플 기준) |
-| 150 | ● | 소시지 앤 매시 파이 | 메인 | [Kidney Care UK](https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/sausage-and-mash-pie/) | kcal·탄수화물 + 저염/저칼륨/저인 표시 (사이트 샘플 기준) |
-| 151 | ● | 소시지 앤 매시 | 메인 | [Kidney Care UK](https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/sausage-and-mash/) | kcal·탄수화물 + 저염/저칼륨/저인 표시 (사이트 샘플 기준) |
-| 152 | ● | 심플 라자냐 | 메인 | [Kidney Care UK](https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/simple-lasagne/) | kcal·탄수화물 + 저염/저칼륨/저인 표시 (사이트 샘플 기준) |
-| 153 | ● | 시금치 파인너트 라자냐 | 메인 | [Kidney Care UK](https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/spinach-and-pine-nut-lasagne/) | kcal·탄수화물 + 저염/저칼륨/저인 표시 (사이트 샘플 기준) |
 | 78 |  | 된장 닭구이 | 메인 | [Aaron and Claire](https://aaronandclaire.com/doenjang-dakgui-doenjang-marinated-chicken/) | 열량·탄수화물·단백질·나트륨·칼륨 (인 없음) |
 | 81 |  | 두반장 생선조림 | 메인 | [China Sichuan Food](https://www.chinasichuanfood.com/braised-spicy-fish-sichuan-style/) | 열량·탄수화물·단백질·나트륨·칼륨 (인 없음) |
 | 86 |  | 사천식 소고기 셀러리 볶음 | 메인 | [China Sichuan Food](https://www.chinasichuanfood.com/shredded-beef-szechuan-style/) | 열량·탄수화물·단백질·나트륨·칼륨 (인 없음) |
