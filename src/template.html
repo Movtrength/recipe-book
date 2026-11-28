@@ -211,7 +211,7 @@ const KEY=new Set(["na","k","p"]);
 function nutri(n){
   const rows=NU.filter(([k])=>n[k]!=null).map(([k,l,u])=>`<tr class="${KEY.has(k)?"key":""}"><td>${l}</td><td class="amt"><span class="num">${fmt(n[k])}</span> ${u}</td></tr>`).join("");
   if(!rows) return "";
-  return `<section><h3>영양 정보 <span class="k" style="color:var(--muted);letter-spacing:0">1회 제공량${n.sv?" · "+esc(n.sv):""}</span></h3><table class="ing nu"><tbody>${rows}</tbody></table><p class="nu-note">원문 표기값${n.approx?"(원문이 근삿값으로 표기)":""}. 인분을 바꿔도 1회 제공량 기준은 그대로다. ● 표시는 신장 식단에서 주로 보는 항목.</p></section>`;
+  return `<section><h3>영양 정보 <span class="k" style="color:var(--muted);letter-spacing:0">1회 제공량${n.sv?" · "+esc(n.sv):""}</span></h3><table class="ing nu"><tbody>${rows}</tbody></table><p class="nu-note">${n.calc?`계산 추정값(${esc(n.calc)}). 원문에 영양 정보가 없어 재료량으로 계산했다`:`원문 표기값${n.approx?"(원문이 근삿값으로 표기)":""}`}. 인분을 바꿔도 1회 제공량 기준은 그대로다. ● 표시는 신장 식단에서 주로 보는 항목.</p></section>`;
 }
 function currentId(){const m=location.hash.match(/^#r-(\d+)$/);return m?+m[1]:null;}
 

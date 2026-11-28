@@ -16,6 +16,7 @@
 | `.github/workflows/check.yml` | 푸시마다 `build.py --check` + `index.html`·`sw.js` 최신 여부 검사 | 검사 규칙 바꿀 때 |
 | `tools/nutrition_gaps.py` → `reports/` | 영양 정보 없는 레시피 목록·우선순위 (`nutrition-gaps.md`, `.csv`) | 영양 정보를 채운 뒤 다시 실행 |
 | `tools/probe_nutrition.py` → `tools/nutrition_checked.json` | 출처 페이지를 열어 영양 표 유무 확인 (등급 근거). 결과는 사람이 검토 후 json에 반영 | 다른 등급 원문을 확인할 때 (`python3 tools/probe_nutrition.py /tmp/out.json B`) |
+| `tools/estimate_nutrition.py` | 원문에 영양 정보가 없는 레시피를 재료량 × 식품 성분 DB로 계산 (재료→DB 항목·g 환산이 코드에 있음) | 계산 대상 추가 (`python3 tools/estimate_nutrition.py 원재료성식품.csv --apply`) |
 | `tools/davita_nutrition.py` | DaVita 원문 영양 표 추출 (검토용 JSON만 쓰고 데이터는 안 고침) | DaVita 값을 다시 받을 때 |
 
 ## 배포
@@ -57,7 +58,7 @@
 | `ing` | 재료 `[이름, 양, 단위, 메모]` | 모두 문자열. 양은 `"2"`, `"1.5"`, `"2-3"`이면 인분 변경 시 자동 환산, 그 밖의 값(`"약간"`)은 그대로 |
 | `st` | 단계 `[문장, 최소분, 최대분, 알림]` | 타이머 없는 단계는 `["문장"]`만. 최소 ≤ 최대, 소수 가능(1.5) |
 | `subs` | 대체 재료 `[원재료, 대체재, 메모]` | |
-| `nu` | 1회 제공량 영양 정보 또는 `null` | 숫자 키: `kcal carb protein fat satfat chol na k p ca fiber sugar`; `sv`(제공량 설명, 문자열), `approx`(근삿값 여부) |
+| `nu` | 1회 제공량 영양 정보 또는 `null` | 숫자 키: `kcal carb protein fat satfat chol na k p ca fiber sugar`; `sv`(제공량 설명, 문자열), `approx`(근삿값 여부), `calc`(직접 계산한 값이면 근거 문자열 — 있으면 화면에 "계산 추정값"으로 표시) |
 | `tags` `al` `mise` `done` `cau` `notes` | 문자열 목록 | 빈 목록 가능 |
 
 ## 원칙

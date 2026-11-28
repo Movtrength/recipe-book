@@ -25,7 +25,7 @@ SHIPPED = ["index.html", "manifest.webmanifest", "icons/icon.svg", "icons/icon-1
 PLACEHOLDER = "/*@@RECIPES@@*/[]"
 
 CATEGORIES = ["아침", "밥", "면", "국", "메인", "반찬", "샐러드", "소스", "간식", "디저트", "음료", "기타"]
-NUTRI_KEYS = {"kcal", "carb", "protein", "fat", "satfat", "chol", "na", "k", "p", "ca", "fiber", "sugar", "sv", "approx"}
+NUTRI_KEYS = {"kcal", "carb", "protein", "fat", "satfat", "chol", "na", "k", "p", "ca", "fiber", "sugar", "sv", "approx", "calc"}
 STR_LISTS = ["tags", "al", "mise", "cau", "done", "notes"]
 
 
@@ -98,11 +98,11 @@ def validate(recipes, warns):
                 for k, v in nu.items():
                     if k not in NUTRI_KEYS:
                         e(f"nu.{k} is not a known key {sorted(NUTRI_KEYS)}")
-                    elif k == "sv" and not isinstance(v, str):
-                        e("nu.sv must be a string")
+                    elif k in ("sv", "calc") and not isinstance(v, str):
+                        e(f"nu.{k} must be a string")
                     elif k == "approx" and not isinstance(v, bool):
                         e("nu.approx must be true/false")
-                    elif k not in ("sv", "approx") and not is_num(v):
+                    elif k not in ("sv", "approx", "calc") and not is_num(v):
                         e(f"nu.{k} must be a number")
     return errs
 
