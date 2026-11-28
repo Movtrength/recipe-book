@@ -1,20 +1,19 @@
 # 영양 정보 보완 대상
 
-레시피 420개 중 155개에 영양 정보(`nu`)가 없다 (있는 265개 출처: kidney.org 225, davita.com 24, kidneycareuk.org 13, ksn.or.kr 3).
+레시피 420개 중 101개에 영양 정보(`nu`)가 없다 (있는 319개 출처: kidney.org 225, dishingouthealth.com 54, davita.com 24, kidneycareuk.org 13, ksn.or.kr 3).
 먼저 채울 것은 A등급 0개(원문에 나트륨·칼륨·인이 있다), 다음은 B등급 콩팥 레시피 0개다.
 
-`python3 tools/nutrition_gaps.py`로 다시 만든다. 원문을 직접 연 43개는 `tools/nutrition_checked.json` 결과를, 나머지는 출처 사이트 샘플(1~2쪽) 기준 등급을 쓴다.
+`python3 tools/nutrition_gaps.py`로 다시 만든다. 원문을 직접 연 45개는 `tools/nutrition_checked.json` 결과를, 나머지는 출처 사이트 샘플(1~2쪽) 기준 등급을 쓴다.
 
 | 등급 | 뜻 | 개수 | 콩팥 레시피 | 채우는 방법 |
 | --- | --- | ---: | ---: | --- |
 | A | 원문에 신장 핵심값 | 0 | 0 | 1회분 표에 나트륨·칼륨·인까지 있음. 그대로 옮기면 된다 |
-| B | 원문에 일부 값 | 85 | 0 | 열량·탄수화물 등 일부만, 또는 칼륨·인 없음. 있는 값만 옮긴다 |
+| B | 원문에 일부 값 | 29 | 0 | 열량·탄수화물 등 일부만, 또는 칼륨·인 없음. 있는 값만 옮긴다 |
 | C | 원문 확인 필요 | 0 | 0 | 샘플을 못 봤거나 값이 있을지 불확실 |
-| D | 원문에 값 없음 | 70 | 5 | SNS·영상·개인 기록. 채우려면 식품 성분 DB로 직접 계산(추정값 표시) |
+| D | 원문에 값 없음 | 72 | 5 | SNS·영상·개인 기록. 채우려면 식품 성분 DB로 직접 계산(추정값 표시) |
 
 | 출처 | 개수 | 등급별 | 원문에 있는 값 |
 | --- | ---: | --- | --- |
-| dishingouthealth.com | 56 | B56 | 열량·나트륨 등 (저자 계산), 인 없음 |
 | instagram.com | 24 | D24 |  |
 | (URL 없음) | 15 | D15 |  |
 | justonecookbook.com | 10 | B10 | 열량·나트륨·칼륨 등, 인 없음 |
@@ -28,6 +27,7 @@
 | chinasichuanfood.com | 2 | B2 | 열량·탄수화물·단백질·나트륨·칼륨 (인 없음) |
 | hungryinthailand.com | 2 | B2 | 열량·탄수화물·단백질·나트륨·칼륨 (인 없음) |
 | recipetineats.com | 2 | B2 | 열량 (인 없음) |
+| dishingouthealth.com | 2 | D2 | 원문에 영양 칸 없음 |
 | aaronandclaire.com | 1 | B1 | 열량·탄수화물·단백질·나트륨·칼륨 (인 없음) |
 | christieathome.com | 1 | B1 | 열량·탄수화물·단백질·나트륨·칼륨 (인 없음) |
 | pupswithchopsticks.com | 1 | B1 | 열량·탄수화물·단백질·나트륨 (인 없음) |
@@ -46,6 +46,58 @@
 
 값은 있지만 신장 핵심값이 빠진 레시피:
 
+- #1 원팟 터메릭 치킨 라이스: k, p 없음
+- #2 스위트포테이토 부리토 볼: k, p 없음
+- #4 참깨 쌀국수면 샐러드: k, p 없음
+- #6 골든 칠면조 라이스 스킬렛: k, p 없음
+- #7 세이지 칠면조 미트볼 호박 오르조: k, p 없음
+- #8 치킨 라이스 수프: k, p 없음
+- #9 30분 브로콜리 볶음밥 강황 타히니 소스: k, p 없음
+- #10 갈릭 파르메산 구운 콜리플라워: k, p 없음
+- #11 구운 주키니 파스타샐러드: k, p 없음
+- #12 구운 채소 글로우볼: k, p 없음
+- #13 레몬 그릭 병아리콩 수프: k, p 없음
+- #14 레몬 렌틸 구운 가지 샐러드: k, p 없음
+- #15 망고 미소 연어 볼: k, p 없음
+- #16 베스트 렌틸 수프: k, p 없음
+- #17 브로콜리 볶음: k, p 없음
+- #18 사과 오트밀 브레드: k, p 없음
+- #19 새우 스캄피 오르조: k, p 없음
+- #20 새우 채소 로메인 볶음면: k, p 없음
+- #21 새우 타코 크리미 살사 베르데: k, p 없음
+- #22 스킬렛 포블라노 호박 엔칠라다: k, p 없음
+- #23 시금치 아티초크 스킬렛 엔칠라다: k, p 없음
+- #24 시금치 아티초크 연어 스킬렛: k, p 없음
+- #25 시트러스 미소 진저 당근 샐러드: k, p 없음
+- #26 시트팬 버터넛 소시지 뇨끼: k, p 없음
+- #27 시트팬 치킨소시지 채소구이: k, p 없음
+- #28 시트팬 칠리 레몬 연어: k, p 없음
+- #29 시트팬 페스토 뇨끼: k, p 없음
+- #30 연어 타코 아보카도 크레마: k, p 없음
+- #31 오렌지 메이플 글레이즈 연어: k, p 없음
+- #32 와일드라이스 버섯 수프: k, p 없음
+- #33 원스킬렛 레몬 페퍼 새우 오르조: k, p 없음
+- #34 원팟 스페인식 콩밥: k, p 없음
+- #35 원팟 토스카나 소시지 렌틸콩: k, p 없음
+- #36 원팟 하리사 새우 페타 오르조: k, p 없음
+- #38 원팬 크리미 토마토 파스타: k, p 없음
+- #39 지중해 렌틸 샐러드: k, p 없음
+- #40 지중해 파스타: k, p 없음
+- #41 치킨 소시지 오르조 방울토마토: k, p 없음
+- #42 치킨 엔칠라다 퀴노아 베이크: k, p 없음
+- #43 치킨 캐슈 크런치 샐러드: k, p 없음
+- #44 치폴레 비네그레트: k, p 없음
+- #45 치폴레 새우 타코 아보카도 망고 살사: k, p 없음
+- #46 퀴노아 채소 파워볼: k, p 없음
+- #47 크리스피 치폴레 블랙빈 타코: k, p 없음
+- #48 태국식 땅콩 치킨 퀴노아: k, p 없음
+- #49 토마토 버터빈 스튜: k, p 없음
+- #50 토스카나 칠면조 흰강낭콩 스킬렛: k, p 없음
+- #51 파스타 에 체치 병아리콩 스튜: k, p 없음
+- #52 하베스트 가을 샐러드 캐러멜 샬롯 드레싱: k, p 없음
+- #53 허니 세서미 치킨 시트팬: k, p 없음
+- #54 호박 프로틴 팬케이크: k, p 없음
+- #55 흰강낭콩 레몬 수프: k, p 없음
 - #136 아라비아타 소시지 파스타: na, k, p 없음
 - #137 BBQ 풀드포크 버거: na, k, p 없음
 - #138 브로콜리·콜리플라워 치즈: na, k, p 없음
@@ -59,6 +111,8 @@
 - #149 구운 홍피망 치킨 파스타 베이크: na, k, p 없음
 - #150 소시지 앤 매시 파이: na, k, p 없음
 - #153 시금치 파인너트 라자냐: na, k, p 없음
+- #163 발사믹 두부: k, p 없음
+- #164 데리야키 두부 브로콜리: k, p 없음
 - #267 가지 딥: p 없음
 - #374 매콤 닭고기 샐러드: p 없음
 
@@ -73,7 +127,7 @@
 | # | 콩팥 | 요리 | 분류 | 출처 | 원문에 있는 값 |
 | ---: | :---: | --- | --- | --- | --- |
 
-## B. 원문에 일부 값 (85개)
+## B. 원문에 일부 값 (29개)
 
 | # | 콩팥 | 요리 | 분류 | 출처 | 원문에 있는 값 |
 | ---: | :---: | --- | --- | --- | --- |
@@ -81,62 +135,6 @@
 | 81 |  | 두반장 생선조림 | 메인 | [China Sichuan Food](https://www.chinasichuanfood.com/braised-spicy-fish-sichuan-style/) | 열량·탄수화물·단백질·나트륨·칼륨 (인 없음) |
 | 86 |  | 사천식 소고기 셀러리 볶음 | 메인 | [China Sichuan Food](https://www.chinasichuanfood.com/shredded-beef-szechuan-style/) | 열량·탄수화물·단백질·나트륨·칼륨 (인 없음) |
 | 70 |  | 팟키마오 | 면 | [Christie at Home](https://christieathome.com/blog/thai-drunken-noodles-pad-kee-mao/) | 열량·탄수화물·단백질·나트륨·칼륨 (인 없음) |
-| 1 |  | 원팟 터메릭 치킨 라이스 | 밥 | [Dishing Out Health](https://dishingouthealth.com/turmeric-chicken-and-rice/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 2 |  | 스위트포테이토 부리토 볼 | 밥 | [Dishing Out Health](https://dishingouthealth.com/sweet-potato-burrito-bowls/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 3 |  | 베트남 새우 쌀국수면 볼 | 면 | [Dishing Out Health](https://dishingouthealth.com/30-minute-vietnamese-shrimp-and-rice-noodle-bowls/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 4 |  | 참깨 쌀국수면 샐러드 | 면 | [Dishing Out Health](https://dishingouthealth.com/rice-noodle-salad/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 6 |  | 골든 칠면조 라이스 스킬렛 | 밥 | [Dishing Out Health](https://dishingouthealth.com/ground-turkey-and-rice-skillet/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 7 |  | 세이지 칠면조 미트볼 호박 오르조 | 메인 | [Dishing Out Health](https://dishingouthealth.com/sage-turkey-meatballs-with-pumpkin-orzo/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 8 |  | 치킨 라이스 수프 | 국 | [Dishing Out Health](https://dishingouthealth.com/immune-boosting-chicken-and-rice-soup/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 9 |  | 30분 브로콜리 볶음밥 강황 타히니 소스 | 밥 | [Dishing Out Health](https://dishingouthealth.com/30-minute-broccoli-fried-rice-with-turmeric-tahini-sauce/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 10 |  | 갈릭 파르메산 구운 콜리플라워 | 반찬 | [Dishing Out Health](https://dishingouthealth.com/parmesan-roasted-cauliflower/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 11 |  | 구운 주키니 파스타샐러드 | 메인 | [Dishing Out Health](https://dishingouthealth.com/roasted-zucchini-pasta-salad/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 12 |  | 구운 채소 글로우볼 | 메인 | [Dishing Out Health](https://dishingouthealth.com/roasted-veggie-glow-bowls/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 13 |  | 레몬 그릭 병아리콩 수프 | 국 | [Dishing Out Health](https://dishingouthealth.com/greek-chickpea-soup/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 14 |  | 레몬 렌틸 구운 가지 샐러드 | 메인 | [Dishing Out Health](https://dishingouthealth.com/lentil-and-roasted-eggplant-salad/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 15 |  | 망고 미소 연어 볼 | 밥 | [Dishing Out Health](https://dishingouthealth.com/mango-miso-salmon-bowls/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 16 |  | 베스트 렌틸 수프 | 국 | [Dishing Out Health](https://dishingouthealth.com/lentil-soup-recipe/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 17 |  | 브로콜리 볶음 | 반찬 | [Dishing Out Health](https://dishingouthealth.com/sauteed-broccoli-recipe/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 18 |  | 사과 오트밀 브레드 | 간식 | [Dishing Out Health](https://dishingouthealth.com/apple-harvest-oatmeal-bread/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 19 |  | 새우 스캄피 오르조 | 메인 | [Dishing Out Health](https://dishingouthealth.com/shrimp-scampi-orzo/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 20 |  | 새우 채소 로메인 볶음면 | 면 | [Dishing Out Health](https://dishingouthealth.com/shrimp-and-veggie-lo-mein/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 21 |  | 새우 타코 크리미 살사 베르데 | 메인 | [Dishing Out Health](https://dishingouthealth.com/easy-shrimp-tacos/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 22 |  | 스킬렛 포블라노 호박 엔칠라다 | 메인 | [Dishing Out Health](https://dishingouthealth.com/skillet-poblano-and-pumpkin-enchiladas/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 23 |  | 시금치 아티초크 스킬렛 엔칠라다 | 메인 | [Dishing Out Health](https://dishingouthealth.com/spinach-artichoke-skillet-enchiladas/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 24 |  | 시금치 아티초크 연어 스킬렛 | 메인 | [Dishing Out Health](https://dishingouthealth.com/spinach-artichoke-salmon-skillet/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 25 |  | 시트러스 미소 진저 당근 샐러드 | 반찬 | [Dishing Out Health](https://dishingouthealth.com/carrot-salad/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 26 |  | 시트팬 버터넛 소시지 뇨끼 | 메인 | [Dishing Out Health](https://dishingouthealth.com/sheet-pan-butternut-squash-and-sausage-gnocchi/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 27 |  | 시트팬 치킨소시지 채소구이 | 메인 | [Dishing Out Health](https://dishingouthealth.com/sheet-pan-chicken-sausage-and-veggies/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 28 |  | 시트팬 칠리 레몬 연어 | 메인 | [Dishing Out Health](https://dishingouthealth.com/sheet-pan-chili-lemon-salmon/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 29 |  | 시트팬 페스토 뇨끼 | 메인 | [Dishing Out Health](https://dishingouthealth.com/sheet-pan-pesto-gnocchi/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 30 |  | 연어 타코 아보카도 크레마 | 메인 | [Dishing Out Health](https://dishingouthealth.com/salmon-tacos/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 31 |  | 오렌지 메이플 글레이즈 연어 | 메인 | [Dishing Out Health](https://dishingouthealth.com/orangemapleglazedsalmon/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 32 |  | 와일드라이스 버섯 수프 | 국 | [Dishing Out Health](https://dishingouthealth.com/wild-rice-mixed-mushroom-soup/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 33 |  | 원스킬렛 레몬 페퍼 새우 오르조 | 메인 | [Dishing Out Health](https://dishingouthealth.com/one-skillet-lemon-pepper-shrimp-and-orzo/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 34 |  | 원팟 스페인식 콩밥 | 밥 | [Dishing Out Health](https://dishingouthealth.com/spanish-rice-and-beans-one-pot/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 35 |  | 원팟 토스카나 소시지 렌틸콩 | 메인 | [Dishing Out Health](https://dishingouthealth.com/sausage-and-lentils/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 36 |  | 원팟 하리사 새우 페타 오르조 | 메인 | [Dishing Out Health](https://dishingouthealth.com/one-pot-harissa-shrimp-and-feta-orzo/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 37 |  | 원팬 옥수수 코코넛 만두 | 메인 | [Dishing Out Health](https://dishingouthealth.com/one-pan-sweet-corn-coconut-dumplings/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 38 |  | 원팬 크리미 토마토 파스타 | 면 | [Dishing Out Health](https://dishingouthealth.com/one-pan-pasta/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 39 |  | 지중해 렌틸 샐러드 | 반찬 | [Dishing Out Health](https://dishingouthealth.com/mediterranean-lentil-salad/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 40 |  | 지중해 파스타 | 면 | [Dishing Out Health](https://dishingouthealth.com/mediterranean-pasta/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 41 |  | 치킨 소시지 오르조 방울토마토 | 메인 | [Dishing Out Health](https://dishingouthealth.com/one-pan-chicken-sausage-orzo/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 42 |  | 치킨 엔칠라다 퀴노아 베이크 | 메인 | [Dishing Out Health](https://dishingouthealth.com/easy-chicken-enchilada-quinoa-bake/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 43 |  | 치킨 캐슈 크런치 샐러드 | 메인 | [Dishing Out Health](https://dishingouthealth.com/chicken-cashew-salad/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 44 |  | 치폴레 비네그레트 | 소스 | [Dishing Out Health](https://dishingouthealth.com/copycat-chipotle-vinaigrette/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 45 |  | 치폴레 새우 타코 아보카도 망고 살사 | 메인 | [Dishing Out Health](https://dishingouthealth.com/chipotle-shrimp-tacos/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 46 |  | 퀴노아 채소 파워볼 | 메인 | [Dishing Out Health](https://dishingouthealth.com/quinoa-power-bowls-with-maple-chipotle-brussels-and-smoky-butternut-squash/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 47 |  | 크리스피 치폴레 블랙빈 타코 | 메인 | [Dishing Out Health](https://dishingouthealth.com/black-bean-tacos/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 48 |  | 태국식 땅콩 치킨 퀴노아 | 메인 | [Dishing Out Health](https://dishingouthealth.com/thai-peanut-chicken-quinoa/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 49 |  | 토마토 버터빈 스튜 | 국 | [Dishing Out Health](https://dishingouthealth.com/butter-bean-stew/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 50 |  | 토스카나 칠면조 흰강낭콩 스킬렛 | 메인 | [Dishing Out Health](https://dishingouthealth.com/tuscan-turkey-and-white-bean-skillet/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 51 |  | 파스타 에 체치 병아리콩 스튜 | 국 | [Dishing Out Health](https://dishingouthealth.com/pasta-e-ceci/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 52 |  | 하베스트 가을 샐러드 캐러멜 샬롯 드레싱 | 메인 | [Dishing Out Health](https://dishingouthealth.com/harvest-fall-salad/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 53 |  | 허니 세서미 치킨 시트팬 | 메인 | [Dishing Out Health](https://dishingouthealth.com/honey-sesame-chicken/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 54 |  | 호박 프로틴 팬케이크 | 간식 | [Dishing Out Health](https://dishingouthealth.com/pumpkin-protein-pancakes/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 55 |  | 흰강낭콩 레몬 수프 | 국 | [Dishing Out Health](https://dishingouthealth.com/white-bean-soup/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 163 |  | 발사믹 두부 | 메인 | [Dishing Out Health](https://dishingouthealth.com/balsamic-tofu-20-minutes/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
-| 164 |  | 데리야키 두부 브로콜리 | 메인 | [Dishing Out Health](https://dishingouthealth.com/teriyaki-tofu-and-broccoli/) | 열량·나트륨 등 (저자 계산), 인 없음 (사이트 샘플 기준) |
 | 58 |  | 치킨 파인애플 카레 볶음밥 | 밥 | [Hungry in Thailand](https://hungryinthailand.com/chicken-pineapple-fried-rice/) | 열량·탄수화물·단백질·나트륨·칼륨 (인 없음) |
 | 59 |  | 카이란 치킨 볶음밥 | 밥 | [Hungry in Thailand](https://hungryinthailand.com/chicken-thai-fried-rice/) | 열량·탄수화물·단백질·나트륨·칼륨 (인 없음) |
 | 61 |  | 오야코동 | 밥 | [Just One Cookbook](https://www.justonecookbook.com/oyakodon/) | 열량·나트륨·칼륨 등, 인 없음 (사이트 샘플 기준) |
@@ -168,7 +166,7 @@
 | # | 콩팥 | 요리 | 분류 | 출처 | 원문에 있는 값 |
 | ---: | :---: | --- | --- | --- | --- |
 
-## D. 원문에 값 없음 (70개)
+## D. 원문에 값 없음 (72개)
 
 | # | 콩팥 | 요리 | 분류 | 출처 | 원문에 있는 값 |
 | ---: | :---: | --- | --- | --- | --- |
@@ -203,6 +201,8 @@
 | 160 |  | 두부 데리야끼 덮밥 | 밥 | [만개의레시피](https://www.10000recipe.com/recipe/7055257) | 영양 정보 없음 |
 | 411 |  | 연어 새우 초밥 케이크 | 밥 | [BANJO FOODS "Sushi cake" + chef-choice 블로그(간장새우 소스)](https://banjo.co.jp/en/recipes/206) | 영양 정보 없음 |
 | 80 |  | 된장 연어구이 | 메인 | [Beyond Kimchee](https://www.beyondkimchee.com/soybean-paste-glazed-salmon/) | 영양 정보 없음 |
+| 3 |  | 베트남 새우 쌀국수면 볼 | 면 | [Dishing Out Health](https://dishingouthealth.com/30-minute-vietnamese-shrimp-and-rice-noodle-bowls/) | 원문에 영양 칸 없음 |
+| 37 |  | 원팬 옥수수 코코넛 만두 | 메인 | [Dishing Out Health](https://dishingouthealth.com/one-pan-sweet-corn-coconut-dumplings/) | 원문에 영양 칸 없음 |
 | 107 |  | 꾸어이띠여우 쿠어 까이 | 면 | [Hot Thai Kitchen](https://hot-thai-kitchen.com/rice-noodles-chicken-guay-tiew-kua-gai/) | 영양 정보 없음 |
 | 105 |  | 소고기 무 솥밥 | 밥 | [Instagram @dailybbokki](https://www.instagram.com/reel/DeEUaPmq5Am/) |  |
 | 106 |  | 매콤 우삼겹 갈비탕 | 국 | [Instagram @jjongal.kim](https://www.instagram.com/reel/DeGwsKYzEYT/) |  |
