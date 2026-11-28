@@ -4,8 +4,9 @@
 Writes reports/nutrition-gaps.md (summary + prioritized lists) and
 reports/nutrition-gaps.csv (one row per recipe). Re-run after editing data.
 
-Tiers are by source domain. What each source publishes was spot-checked
-on sample pages (2026-11-28), not on every page.
+Tiers come from tools/nutrition_checked.json when a recipe's own source page
+was opened (probe_nutrition.py), otherwise from the source domain, which was
+spot-checked on 1-2 sample pages (2026-11-28).
 """
 import csv
 import json
@@ -16,6 +17,7 @@ from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parent.parent
 R = json.loads((ROOT / "data" / "recipes.json").read_text(encoding="utf-8"))
 OUT = ROOT / "reports"
+CHECKED = json.loads((ROOT / "tools" / "nutrition_checked.json").read_text(encoding="utf-8"))
 
 # tier, label, what the source offers
 TIERS = {
@@ -48,7 +50,9 @@ def domain(r):
     return urlparse(url).netloc.removeprefix("www.") if url else ""
 
 
-def tier_of(r):
+def tier_of(r, i=None):
+    if i is not None and str(i) in CHECKED:
+        return CHECKED[str(i)]["tier"]
     d = domain(r)
     if not d:
         return "D"
@@ -61,11 +65,13 @@ def main():
         if r.get("nu"):
             continue
         d = domain(r)
+        chk = CHECKED.get(str(i))
         rows.append({
-            "id": i, "tier": tier_of(r), "kid": bool(r.get("kid")),
+            "id": i, "tier": tier_of(r, i), "kid": bool(r.get("kid")),
             "title": r["t"], "category": r["c"],
             "source": r["src"][0] or "-", "domain": d or "(URL 없음)", "url": r["src"][1],
-            "offers": SOURCE_NOTE.get(d, ""),
+            "offers": chk["offers"] if chk else SOURCE_NOTE.get(d, ""),
+            "checked": "원문 확인" if chk else "사이트 샘플 기준",
         })
     # kidney recipes first inside each tier: kid diet needs Na/K/P most
     rows.sort(key=lambda x: (x["tier"], not x["kid"], x["domain"], x["id"]))
@@ -83,19 +89,24 @@ def main():
     md = [
         "# 영양 정보 보완 대상",
         "",
-        f"레시피 {len(R)}개 중 {len(rows)}개에 영양 정보(`nu`)가 없다. 값이 있는 {len(R) - len(rows)}개는 모두 kidney.org 출처다.",
-        "먼저 채울 것은 **A등급 24개**(DaVita, 원문에 나트륨·칼륨·인 표가 있다)이고, 그중 콩팥 레시피부터 한다.",
+        f"레시피 {len(R)}개 중 {len(rows)}개에 영양 정보(`nu`)가 없다 (있는 {len(R) - len(rows)}개 출처: "
+        + ", ".join(f"{d} {n}" for d, n in Counter(domain(r) for r in R if r.get("nu")).most_common()) + ").",
+        f"먼저 채울 것은 A등급 {tc['A']}개(원문에 나트륨·칼륨·인이 있다), 다음은 B등급 콩팥 레시피 {tk['B']}개다.",
         "",
-        "`python3 tools/nutrition_gaps.py`로 다시 만든다. 등급은 출처 사이트별로 매겼고, 사이트마다 1~2쪽만 확인했다.",
+        f"`python3 tools/nutrition_gaps.py`로 다시 만든다. 원문을 직접 연 {sum(1 for x in rows if x['checked'] == '원문 확인')}개는 "
+        "`tools/nutrition_checked.json` 결과를, 나머지는 출처 사이트 샘플(1~2쪽) 기준 등급을 쓴다.",
         "",
         "| 등급 | 뜻 | 개수 | 콩팥 레시피 | 채우는 방법 |",
         "| --- | --- | ---: | ---: | --- |",
     ]
     for t, (label, how) in TIERS.items():
         md.append(f"| {t} | {label} | {tc[t]} | {tk[t]} | {how} |")
-    md += ["", "| 출처 | 개수 | 등급 | 원문에 있는 값 |", "| --- | ---: | :---: | --- |"]
+    md += ["", "| 출처 | 개수 | 등급별 | 원문에 있는 값 |", "| --- | ---: | --- | --- |"]
     for d, n in Counter(x["domain"] for x in rows).most_common():
-        md.append(f"| {d} | {n} | {DOMAIN_TIER.get(d, 'D' if d == '(URL 없음)' else BLOG_DEFAULT)} | {SOURCE_NOTE.get(d, '')} |")
+        mine = [x for x in rows if x["domain"] == d]
+        split = " ".join(f"{t}{c}" for t, c in sorted(Counter(x["tier"] for x in mine).items()))
+        offers = Counter(x["offers"] for x in mine if x["offers"]).most_common(1)
+        md.append(f"| {d} | {n} | {split} | {offers[0][0] if offers else ''} |")
     if partial:
         md += ["", "값은 있지만 신장 핵심값이 빠진 레시피:", ""]
         md += [f"- #{i} {t}: {', '.join(ks)} 없음" for i, t, ks in partial]
@@ -105,10 +116,11 @@ def main():
            "- 출처에 없는 값을 추정해서 A·B 레시피에 섞지 않는다."]
     for t, (label, _) in TIERS.items():
         part = [x for x in rows if x["tier"] == t]
-        md += ["", f"## {t}. {label} ({len(part)}개)", "", "| # | 콩팥 | 요리 | 분류 | 출처 |", "| ---: | :---: | --- | --- | --- |"]
+        md += ["", f"## {t}. {label} ({len(part)}개)", "", "| # | 콩팥 | 요리 | 분류 | 출처 | 원문에 있는 값 |", "| ---: | :---: | --- | --- | --- | --- |"]
         for x in part:
             src = f"[{x['source']}]({x['url']})" if x["url"] else x["source"]
-            md.append(f"| {x['id']} | {'●' if x['kid'] else ''} | {x['title']} | {x['category']} | {src} |")
+            note = x["offers"] + ("" if x["checked"] == "원문 확인" else " (사이트 샘플 기준)") if x["offers"] else ""
+            md.append(f"| {x['id']} | {'●' if x['kid'] else ''} | {x['title']} | {x['category']} | {src} | {note} |")
     (OUT / "nutrition-gaps.md").write_text("\n".join(md) + "\n", encoding="utf-8")
     print(f"{len(rows)} recipes without nu -> reports/nutrition-gaps.md, .csv")
     print("tiers:", dict(sorted(tc.items())), "kid:", dict(sorted(tk.items())))

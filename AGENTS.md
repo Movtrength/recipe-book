@@ -15,6 +15,8 @@
 | `src/sw.js` → `sw.js` | 오프라인 지원 서비스 워커. 빌드가 배포 파일 해시를 캐시 버전으로 넣는다 | 캐시 대상·전략 바꿀 때 (`sw.js`는 직접 수정 금지) |
 | `.github/workflows/check.yml` | 푸시마다 `build.py --check` + `index.html`·`sw.js` 최신 여부 검사 | 검사 규칙 바꿀 때 |
 | `tools/nutrition_gaps.py` → `reports/` | 영양 정보 없는 레시피 목록·우선순위 (`nutrition-gaps.md`, `.csv`) | 영양 정보를 채운 뒤 다시 실행 |
+| `tools/probe_nutrition.py` → `tools/nutrition_checked.json` | 출처 페이지를 열어 영양 표 유무 확인 (등급 근거). 결과는 사람이 검토 후 json에 반영 | 다른 등급 원문을 확인할 때 (`python3 tools/probe_nutrition.py /tmp/out.json B`) |
+| `tools/davita_nutrition.py` | DaVita 원문 영양 표 추출 (검토용 JSON만 쓰고 데이터는 안 고침) | DaVita 값을 다시 받을 때 |
 
 ## 배포
 

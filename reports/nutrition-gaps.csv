@@ -1,173 +1,173 @@
-﻿id,tier,kid,title,category,source,domain,url,offers
-136,B,True,아라비아타 소시지 파스타,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/arrabbiata-pasta-with-sausages/,kcal·탄수화물 + 저염/저칼륨/저인 표시
-137,B,True,BBQ 풀드포크 버거,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/bbq-pulled-pork-burgers/,kcal·탄수화물 + 저염/저칼륨/저인 표시
-138,B,True,브로콜리·콜리플라워 치즈,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/broc-cauli-cheese/,kcal·탄수화물 + 저염/저칼륨/저인 표시
-139,B,True,치킨 채소 라자냐,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/chicken-and-vegetable-lasagne/,kcal·탄수화물 + 저염/저칼륨/저인 표시
-140,B,True,치킨 파히타 (Kidney Care UK),메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/chicken-fajitas/,kcal·탄수화물 + 저염/저칼륨/저인 표시
-141,B,True,치킨 핫팟,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/chicken-hotpot/,kcal·탄수화물 + 저염/저칼륨/저인 표시
-142,B,True,치킨 브로콜리 크림 파스타,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/creamy-pasta-with-chicken-and-broccoli/,kcal·탄수화물 + 저염/저칼륨/저인 표시
-143,B,True,시금치 치즈 크림 탈리아텔레,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/creamy-spinach-and-cheese-tagliatelle/,kcal·탄수화물 + 저염/저칼륨/저인 표시
-144,B,True,바삭 채소 프리터,반찬,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/crispy-vegetable-fritters/,kcal·탄수화물 + 저염/저칼륨/저인 표시
-145,B,True,간단 소고기 채소 누들,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/easy-beef-and-vegetable-noodles/,kcal·탄수화물 + 저염/저칼륨/저인 표시
-146,B,True,그린 맥 앤 치즈,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/green-mac-and-cheese/,kcal·탄수화물 + 저염/저칼륨/저인 표시
-147,B,True,지중해식 치킨 피타,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/mediterranean-chicken-pittas/,kcal·탄수화물 + 저염/저칼륨/저인 표시
-148,B,True,참치 올리브 푸타네스카 스파게티,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/puttanesca-spaghetti-with-tuna-and-olives/,kcal·탄수화물 + 저염/저칼륨/저인 표시
-149,B,True,구운 홍피망 치킨 파스타 베이크,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/roasted-red-pepper-and-chicken-pasta-bake/,kcal·탄수화물 + 저염/저칼륨/저인 표시
-150,B,True,소시지 앤 매시 파이,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/sausage-and-mash-pie/,kcal·탄수화물 + 저염/저칼륨/저인 표시
-151,B,True,소시지 앤 매시,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/sausage-and-mash/,kcal·탄수화물 + 저염/저칼륨/저인 표시
-152,B,True,심플 라자냐,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/simple-lasagne/,kcal·탄수화물 + 저염/저칼륨/저인 표시
-153,B,True,시금치 파인너트 라자냐,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/spinach-and-pine-nut-lasagne/,kcal·탄수화물 + 저염/저칼륨/저인 표시
-1,B,False,원팟 터메릭 치킨 라이스,밥,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/turmeric-chicken-and-rice/,"열량·나트륨 등 (저자 계산), 인 없음"
-2,B,False,스위트포테이토 부리토 볼,밥,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/sweet-potato-burrito-bowls/,"열량·나트륨 등 (저자 계산), 인 없음"
-3,B,False,베트남 새우 쌀국수면 볼,면,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/30-minute-vietnamese-shrimp-and-rice-noodle-bowls/,"열량·나트륨 등 (저자 계산), 인 없음"
-4,B,False,참깨 쌀국수면 샐러드,면,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/rice-noodle-salad/,"열량·나트륨 등 (저자 계산), 인 없음"
-6,B,False,골든 칠면조 라이스 스킬렛,밥,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/ground-turkey-and-rice-skillet/,"열량·나트륨 등 (저자 계산), 인 없음"
-7,B,False,세이지 칠면조 미트볼 호박 오르조,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/sage-turkey-meatballs-with-pumpkin-orzo/,"열량·나트륨 등 (저자 계산), 인 없음"
-8,B,False,치킨 라이스 수프,국,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/immune-boosting-chicken-and-rice-soup/,"열량·나트륨 등 (저자 계산), 인 없음"
-9,B,False,30분 브로콜리 볶음밥 강황 타히니 소스,밥,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/30-minute-broccoli-fried-rice-with-turmeric-tahini-sauce/,"열량·나트륨 등 (저자 계산), 인 없음"
-10,B,False,갈릭 파르메산 구운 콜리플라워,반찬,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/parmesan-roasted-cauliflower/,"열량·나트륨 등 (저자 계산), 인 없음"
-11,B,False,구운 주키니 파스타샐러드,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/roasted-zucchini-pasta-salad/,"열량·나트륨 등 (저자 계산), 인 없음"
-12,B,False,구운 채소 글로우볼,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/roasted-veggie-glow-bowls/,"열량·나트륨 등 (저자 계산), 인 없음"
-13,B,False,레몬 그릭 병아리콩 수프,국,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/greek-chickpea-soup/,"열량·나트륨 등 (저자 계산), 인 없음"
-14,B,False,레몬 렌틸 구운 가지 샐러드,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/lentil-and-roasted-eggplant-salad/,"열량·나트륨 등 (저자 계산), 인 없음"
-15,B,False,망고 미소 연어 볼,밥,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/mango-miso-salmon-bowls/,"열량·나트륨 등 (저자 계산), 인 없음"
-16,B,False,베스트 렌틸 수프,국,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/lentil-soup-recipe/,"열량·나트륨 등 (저자 계산), 인 없음"
-17,B,False,브로콜리 볶음,반찬,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/sauteed-broccoli-recipe/,"열량·나트륨 등 (저자 계산), 인 없음"
-18,B,False,사과 오트밀 브레드,간식,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/apple-harvest-oatmeal-bread/,"열량·나트륨 등 (저자 계산), 인 없음"
-19,B,False,새우 스캄피 오르조,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/shrimp-scampi-orzo/,"열량·나트륨 등 (저자 계산), 인 없음"
-20,B,False,새우 채소 로메인 볶음면,면,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/shrimp-and-veggie-lo-mein/,"열량·나트륨 등 (저자 계산), 인 없음"
-21,B,False,새우 타코 크리미 살사 베르데,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/easy-shrimp-tacos/,"열량·나트륨 등 (저자 계산), 인 없음"
-22,B,False,스킬렛 포블라노 호박 엔칠라다,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/skillet-poblano-and-pumpkin-enchiladas/,"열량·나트륨 등 (저자 계산), 인 없음"
-23,B,False,시금치 아티초크 스킬렛 엔칠라다,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/spinach-artichoke-skillet-enchiladas/,"열량·나트륨 등 (저자 계산), 인 없음"
-24,B,False,시금치 아티초크 연어 스킬렛,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/spinach-artichoke-salmon-skillet/,"열량·나트륨 등 (저자 계산), 인 없음"
-25,B,False,시트러스 미소 진저 당근 샐러드,반찬,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/carrot-salad/,"열량·나트륨 등 (저자 계산), 인 없음"
-26,B,False,시트팬 버터넛 소시지 뇨끼,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/sheet-pan-butternut-squash-and-sausage-gnocchi/,"열량·나트륨 등 (저자 계산), 인 없음"
-27,B,False,시트팬 치킨소시지 채소구이,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/sheet-pan-chicken-sausage-and-veggies/,"열량·나트륨 등 (저자 계산), 인 없음"
-28,B,False,시트팬 칠리 레몬 연어,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/sheet-pan-chili-lemon-salmon/,"열량·나트륨 등 (저자 계산), 인 없음"
-29,B,False,시트팬 페스토 뇨끼,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/sheet-pan-pesto-gnocchi/,"열량·나트륨 등 (저자 계산), 인 없음"
-30,B,False,연어 타코 아보카도 크레마,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/salmon-tacos/,"열량·나트륨 등 (저자 계산), 인 없음"
-31,B,False,오렌지 메이플 글레이즈 연어,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/orangemapleglazedsalmon/,"열량·나트륨 등 (저자 계산), 인 없음"
-32,B,False,와일드라이스 버섯 수프,국,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/wild-rice-mixed-mushroom-soup/,"열량·나트륨 등 (저자 계산), 인 없음"
-33,B,False,원스킬렛 레몬 페퍼 새우 오르조,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/one-skillet-lemon-pepper-shrimp-and-orzo/,"열량·나트륨 등 (저자 계산), 인 없음"
-34,B,False,원팟 스페인식 콩밥,밥,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/spanish-rice-and-beans-one-pot/,"열량·나트륨 등 (저자 계산), 인 없음"
-35,B,False,원팟 토스카나 소시지 렌틸콩,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/sausage-and-lentils/,"열량·나트륨 등 (저자 계산), 인 없음"
-36,B,False,원팟 하리사 새우 페타 오르조,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/one-pot-harissa-shrimp-and-feta-orzo/,"열량·나트륨 등 (저자 계산), 인 없음"
-37,B,False,원팬 옥수수 코코넛 만두,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/one-pan-sweet-corn-coconut-dumplings/,"열량·나트륨 등 (저자 계산), 인 없음"
-38,B,False,원팬 크리미 토마토 파스타,면,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/one-pan-pasta/,"열량·나트륨 등 (저자 계산), 인 없음"
-39,B,False,지중해 렌틸 샐러드,반찬,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/mediterranean-lentil-salad/,"열량·나트륨 등 (저자 계산), 인 없음"
-40,B,False,지중해 파스타,면,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/mediterranean-pasta/,"열량·나트륨 등 (저자 계산), 인 없음"
-41,B,False,치킨 소시지 오르조 방울토마토,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/one-pan-chicken-sausage-orzo/,"열량·나트륨 등 (저자 계산), 인 없음"
-42,B,False,치킨 엔칠라다 퀴노아 베이크,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/easy-chicken-enchilada-quinoa-bake/,"열량·나트륨 등 (저자 계산), 인 없음"
-43,B,False,치킨 캐슈 크런치 샐러드,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/chicken-cashew-salad/,"열량·나트륨 등 (저자 계산), 인 없음"
-44,B,False,치폴레 비네그레트,소스,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/copycat-chipotle-vinaigrette/,"열량·나트륨 등 (저자 계산), 인 없음"
-45,B,False,치폴레 새우 타코 아보카도 망고 살사,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/chipotle-shrimp-tacos/,"열량·나트륨 등 (저자 계산), 인 없음"
-46,B,False,퀴노아 채소 파워볼,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/quinoa-power-bowls-with-maple-chipotle-brussels-and-smoky-butternut-squash/,"열량·나트륨 등 (저자 계산), 인 없음"
-47,B,False,크리스피 치폴레 블랙빈 타코,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/black-bean-tacos/,"열량·나트륨 등 (저자 계산), 인 없음"
-48,B,False,태국식 땅콩 치킨 퀴노아,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/thai-peanut-chicken-quinoa/,"열량·나트륨 등 (저자 계산), 인 없음"
-49,B,False,토마토 버터빈 스튜,국,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/butter-bean-stew/,"열량·나트륨 등 (저자 계산), 인 없음"
-50,B,False,토스카나 칠면조 흰강낭콩 스킬렛,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/tuscan-turkey-and-white-bean-skillet/,"열량·나트륨 등 (저자 계산), 인 없음"
-51,B,False,파스타 에 체치 병아리콩 스튜,국,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/pasta-e-ceci/,"열량·나트륨 등 (저자 계산), 인 없음"
-52,B,False,하베스트 가을 샐러드 캐러멜 샬롯 드레싱,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/harvest-fall-salad/,"열량·나트륨 등 (저자 계산), 인 없음"
-53,B,False,허니 세서미 치킨 시트팬,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/honey-sesame-chicken/,"열량·나트륨 등 (저자 계산), 인 없음"
-54,B,False,호박 프로틴 팬케이크,간식,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/pumpkin-protein-pancakes/,"열량·나트륨 등 (저자 계산), 인 없음"
-55,B,False,흰강낭콩 레몬 수프,국,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/white-bean-soup/,"열량·나트륨 등 (저자 계산), 인 없음"
-163,B,False,발사믹 두부,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/balsamic-tofu-20-minutes/,"열량·나트륨 등 (저자 계산), 인 없음"
-164,B,False,데리야키 두부 브로콜리,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/teriyaki-tofu-and-broccoli/,"열량·나트륨 등 (저자 계산), 인 없음"
-61,B,False,오야코동,밥,Just One Cookbook,justonecookbook.com,https://www.justonecookbook.com/oyakodon/,"열량·나트륨·칼륨 등, 인 없음"
-62,B,False,규동,밥,Just One Cookbook,justonecookbook.com,https://www.justonecookbook.com/gyudon/,"열량·나트륨·칼륨 등, 인 없음"
-72,B,False,데리야키 돼지고기 덮밥,밥,Just One Cookbook,justonecookbook.com,https://www.justonecookbook.com/teriyaki-pork-donburi/,"열량·나트륨·칼륨 등, 인 없음"
-73,B,False,장어덮밥,밥,Just One Cookbook,justonecookbook.com,https://www.justonecookbook.com/unagi-don/,"열량·나트륨·칼륨 등, 인 없음"
-82,B,False,메기 카바야키 덮밥,밥,Just One Cookbook,justonecookbook.com,https://www.justonecookbook.com/catfish-kabayaki/,"열량·나트륨·칼륨 등, 인 없음"
-83,B,False,방어 데리야끼,메인,Just One Cookbook,justonecookbook.com,https://www.justonecookbook.com/yellowtail-teriyaki/,"열량·나트륨·칼륨 등, 인 없음"
-87,B,False,소고기 데리야끼 스테이크,메인,Just One Cookbook,justonecookbook.com,https://www.justonecookbook.com/beef-teriyaki/,"열량·나트륨·칼륨 등, 인 없음"
-89,B,False,연어 데리야끼,메인,Just One Cookbook,justonecookbook.com,https://www.justonecookbook.com/teriyaki-salmon-recipe/,"열량·나트륨·칼륨 등, 인 없음"
-93,B,False,카바야키 타레,소스,Just One Cookbook,justonecookbook.com,https://www.justonecookbook.com/homemade-unagi-sauce/,"열량·나트륨·칼륨 등, 인 없음"
-161,B,False,두부 닭고기 함박스테이크,메인,Just One Cookbook,justonecookbook.com,https://www.justonecookbook.com/chicken-tofu-hamburger-steak/,"열량·나트륨·칼륨 등, 인 없음"
-269,C,True,피에스타 샐러드,샐러드,National Kidney Foundation,kidney.org,https://www.kidney.org/nutrition/recipes/fiesta-salad,
-109,C,True,우엉밥,밥,대한신장학회,ksn.or.kr,https://ksn.or.kr/upload/general/ebook/1%EA%B6%8C%20%ED%88%AC%EC%84%9D%20%EC%A0%84%20%EB%8B%A8%EA%B3%84%EC%9D%98%20%EB%A7%8C%EC%84%B1%EC%BD%A9%ED%8C%A5%EB%B3%91%20%ED%99%98%EC%9E%90%EB%A5%BC%20%EC%9C%84%ED%95%9C%20%EC%98%81%EC%96%91-%EC%8B%9D%EC%83%9D%ED%99%9C%20%EA%B4%80%EB%A6%AC.pdf,
-110,C,True,"닭가슴살 샐러드, 가지구이와 발사믹 소스",메인,대한신장학회,ksn.or.kr,https://ksn.or.kr/upload/general/ebook/1%EA%B6%8C%20%ED%88%AC%EC%84%9D%20%EC%A0%84%20%EB%8B%A8%EA%B3%84%EC%9D%98%20%EB%A7%8C%EC%84%B1%EC%BD%A9%ED%8C%A5%EB%B3%91%20%ED%99%98%EC%9E%90%EB%A5%BC%20%EC%9C%84%ED%95%9C%20%EC%98%81%EC%96%91-%EC%8B%9D%EC%83%9D%ED%99%9C%20%EA%B4%80%EB%A6%AC.pdf,
-111,C,True,저염오이김치,반찬,대한신장학회,ksn.or.kr,https://ksn.or.kr/upload/general/ebook/1%EA%B6%8C%20%ED%88%AC%EC%84%9D%20%EC%A0%84%20%EB%8B%A8%EA%B3%84%EC%9D%98%20%EB%A7%8C%EC%84%B1%EC%BD%A9%ED%8C%A5%EB%B3%91%20%ED%99%98%EC%9E%90%EB%A5%BC%20%EC%9C%84%ED%95%9C%20%EC%98%81%EC%96%91-%EC%8B%9D%EC%83%9D%ED%99%9C%20%EA%B4%80%EB%A6%AC.pdf,
-64,C,False,닭가슴살 덮밥,밥,만개의레시피,10000recipe.com,https://www.10000recipe.com/recipe/7007123,
-65,C,False,소고기 덮밥,밥,만개의레시피,10000recipe.com,https://www.10000recipe.com/recipe/6968408,
-66,C,False,돼지고기 김치찌개,국,만개의레시피,10000recipe.com,https://www.10000recipe.com/recipe/6961294,
-79,C,False,된장 삼겹살구이,메인,만개의레시피,10000recipe.com,https://www.10000recipe.com/recipe/7017228,
-108,C,False,볶음쌀국수,면,만개의레시피,10000recipe.com,https://www.10000recipe.com/recipe/6892011,
-157,C,False,간장 두부조림,반찬,만개의레시피,10000recipe.com,https://www.10000recipe.com/recipe/6885373,
-158,C,False,두부계란덮밥,밥,만개의레시피,10000recipe.com,https://www.10000recipe.com/recipe/7065344,
-159,C,False,닭가슴살 두부 동그랑땡,반찬,만개의레시피,10000recipe.com,https://www.10000recipe.com/recipe/7008424,
-160,C,False,두부 데리야끼 덮밥,밥,만개의레시피,10000recipe.com,https://www.10000recipe.com/recipe/7055257,
-78,C,False,된장 닭구이,메인,Aaron and Claire,aaronandclaire.com,https://aaronandclaire.com/doenjang-dakgui-doenjang-marinated-chicken/,
-411,C,False,연어 새우 초밥 케이크,밥,"BANJO FOODS ""Sushi cake"" + chef-choice 블로그(간장새우 소스)",banjo.co.jp,https://banjo.co.jp/en/recipes/206,
-80,C,False,된장 연어구이,메인,Beyond Kimchee,beyondkimchee.com,https://www.beyondkimchee.com/soybean-paste-glazed-salmon/,
-81,C,False,두반장 생선조림,메인,China Sichuan Food,chinasichuanfood.com,https://www.chinasichuanfood.com/braised-spicy-fish-sichuan-style/,
-86,C,False,사천식 소고기 셀러리 볶음,메인,China Sichuan Food,chinasichuanfood.com,https://www.chinasichuanfood.com/shredded-beef-szechuan-style/,
-70,C,False,팟키마오,면,Christie at Home,christieathome.com,https://christieathome.com/blog/thai-drunken-noodles-pad-kee-mao/,
-107,C,False,꾸어이띠여우 쿠어 까이,면,Hot Thai Kitchen,hot-thai-kitchen.com,https://hot-thai-kitchen.com/rice-noodles-chicken-guay-tiew-kua-gai/,
-58,C,False,치킨 파인애플 카레 볶음밥,밥,Hungry in Thailand,hungryinthailand.com,https://hungryinthailand.com/chicken-pineapple-fried-rice/,
-59,C,False,카이란 치킨 볶음밥,밥,Hungry in Thailand,hungryinthailand.com,https://hungryinthailand.com/chicken-thai-fried-rice/,
-92,C,False,정어리 카바야키,메인,RecipeTin Japan,japan.recipetineats.com,https://japan.recipetineats.com/sardine-kabayaki-grilled-sardines-with-sweet-soy-glaze/,
-74,C,False,맥적,메인,Korean Bapsang,koreanbapsang.com,https://www.koreanbapsang.com/dwaejigogi-doenjang-gui/,
-84,C,False,보쌈 수육,메인,Korean Bapsang,koreanbapsang.com,https://www.koreanbapsang.com/bossam-boiled-pork-wraps/,
-94,C,False,해물 된장찌개,국,Korean Bapsang,koreanbapsang.com,https://www.koreanbapsang.com/seafood-doenjang-jjigae/,
-90,C,False,연어 카바야키 덮밥,밥,Mr Pantry,mrpantry.com,https://www.mrpantry.com/recipes/salmon-kabayaki-don-japanese-glazed-salmon-rice-bowl,
-69,C,False,소고기 차우펀,면,Pups with Chopsticks,pupswithchopsticks.com,https://pupswithchopsticks.com/beef-chow-fun/,
-56,C,False,카오팟까이 닭고기 볶음밥,밥,Rachel Cooks Thai,rachelcooksthai.com,https://rachelcooksthai.com/khao-pad-gai/,
-67,C,False,팟씨유,면,Rachel Cooks Thai,rachelcooksthai.com,https://rachelcooksthai.com/pad-see-ew/,
-68,C,False,랏나,면,Rachel Cooks Thai,rachelcooksthai.com,https://rachelcooksthai.com/rad-na/,
-77,C,False,데리야끼 치킨 미트볼,메인,RecipeTin Eats,recipetineats.com,https://www.recipetineats.com/teriyaki-chicken-meatballs/,
-88,C,False,어향가지 돼지고기 볶음,메인,RecipeTin Eats,recipetineats.com,https://www.recipetineats.com/chinese-eggplant-and-minced-pork/,
-75,C,False,대만식 우육면,면,Red House Spice,redhousespice.com,https://redhousespice.com/taiwanese-beef-noodle-soup/,
-60,C,False,태국식 카오팟 치킨 채소 볶음밥,밥,Thai Foodie,thai-foodie.com,https://thai-foodie.com/thaifood/thai-stir-fried-rice-recipe-khaw-pad-gai/,
-57,C,False,태국식 치킨 토마토 볶음밥,밥,Thai Caliente,thaicaliente.com,https://thaicaliente.com/thai-fried-rice-with-chicken-khao-phat-gai/,
-63,C,False,데리야키 치킨 덮밥,밥,The Heirloom Pantry,theheirloompantry.co,https://theheirloompantry.co/teriyaki-chicken-bowl-donburi/,
-71,C,False,회과육,메인,The Woks of Life,thewoksoflife.com,https://thewoksoflife.com/twice-cooked-pork/,
-85,C,False,사천 삼초계,메인,The Woks of Life,thewoksoflife.com,https://thewoksoflife.com/sichuan-three-pepper-chicken/,
-162,C,False,가상두부 돼지고기 두부볶음,메인,The Woks of Life,thewoksoflife.com,https://thewoksoflife.com/home-style-tofu-stir-fry/,
-76,C,False,데리야끼 새우,메인,The Wooden Skillet,thewoodenskillet.com,https://thewoodenskillet.com/teriyaki-shrimp/,
-91,C,False,장어소스 닭꼬치,메인,Lee Kum Kee,usa.lkk.com,https://usa.lkk.com/en/foodservices/recipes/yakitori-recipe,
-0,D,False,태국식 계란 볶음밥,밥,직접 기록,(URL 없음),,
-95,D,False,치킨 알프레도 스파게티스쿼시,메인,-,(URL 없음),,
-96,D,False,치킨 페타 원팬 파스타,메인,-,(URL 없음),,
-97,D,False,크리미 레몬 치킨 파스타,메인,-,(URL 없음),,
-98,D,False,페스토 치킨 파스타 베이크,메인,-,(URL 없음),,
-99,D,False,레몬 페타 치킨 오르조,메인,-,(URL 없음),,
-100,D,False,지중해 토마토 올리브 치킨,메인,-,(URL 없음),,
-101,D,False,크리미 치킨 펜네,메인,-,(URL 없음),,
-102,D,False,레몬그라스 치킨 쌀국수면 볼,면,-,(URL 없음),,
-103,D,False,분짜 돼지고기 미트볼,면,-,(URL 없음),,
-104,D,False,치킨 포 가,면,-,(URL 없음),,
-172,D,False,갈아서 만드는 감자구이,반찬,"사용자 붙여넣기 텍스트 ""갈아서 만드는 감자구이 (+ 고구마 버전)""",(URL 없음),user-paste,
-173,D,False,고구마구이,반찬,"사용자 붙여넣기 텍스트 ""갈아서 만드는 감자구이 (+ 고구마 버전)"" 메모",(URL 없음),user-paste,
-406,D,False,연어장,반찬,지인 레시피,(URL 없음),,
-417,D,False,수비드 풀드포크,메인,직접 기록,(URL 없음),,
-105,D,False,소고기 무 솥밥,밥,Instagram @dailybbokki,instagram.com,https://www.instagram.com/reel/DeEUaPmq5Am/,
-106,D,False,매콤 우삼겹 갈비탕,국,Instagram @jjongal.kim,instagram.com,https://www.instagram.com/reel/DeGwsKYzEYT/,
-155,D,False,감바스 짜파게티,면,Instagram reel @sudal_foodie (캡션+음성 전사),instagram.com,https://www.instagram.com/reel/Des9lWCIQsL/,
-156,D,False,오징어볶음,반찬,"Instagram reel (캡션+화면 자막, 음성 트랙 없음)",instagram.com,https://www.instagram.com/reel/DeREh8OzGu7/,
-166,D,False,지도리우동,면,"Instagram reel (캡션+화면 자막, 음성 트랙 없음)",instagram.com,https://www.instagram.com/reel/De6DaURhZg4/,
-167,D,False,니꾸쟈가,메인,"Instagram reel @sagwa.haus (캡션 레시피, 음성 트랙 없음)",instagram.com,https://www.instagram.com/reel/Deyjg4GSYGD/,
-168,D,False,고구마 맛탕,간식,"Instagram reel (캡션+화면 자막, 음성은 음악뿐)",instagram.com,https://www.instagram.com/reel/DdXpHoYSU2k/,
-170,D,False,돈테키,메인,"Instagram reel @plate_on_ (캡션 레시피, 음성 트랙 없음)",instagram.com,https://www.instagram.com/reel/DaUehSQMawx/,
-174,D,False,마라샹궈,메인,"Instagram @sukkitchen_ ""집에서 하이디라오""",instagram.com,https://www.instagram.com/reel/DfHeoSRzTK-/,
-175,D,False,계란김밥,메인,"Instagram @sukkitchen_ ""집에서 하이디라오""",instagram.com,https://www.instagram.com/reel/DfHeoSRzTK-/,
-176,D,False,버터치킨카레,메인,"Instagram @eongcook ""버터치킨카레""",instagram.com,https://www.instagram.com/reel/DeeDuGAMzKw/,
-177,D,False,알배추수육,메인,"Instagram @32_cactus ""초간단 20분 알배추수육""",instagram.com,https://www.instagram.com/reel/DdafanXz88C/,
-179,D,False,우삼겹들깨수제비,메인,"Instagram @jaytable_ ""초초간단 우삼겹 들깨수제비"" (캡션만 사용, 댓글 미사용)",instagram.com,https://www.instagram.com/reel/DfO5eDehFqh/,
-180,D,False,계란참치주먹밥,간식,"Instagram @bop.pt (밥피티), 레시피 출처 @food.recipe942",instagram.com,https://www.instagram.com/reel/DewFdl5KOxU/,
-407,D,False,닭고기 부추 계란덮밥,밥,인스타그램 @꽁이네 집밥사랑,instagram.com,https://www.instagram.com/reel/Dfwgvk5IqDe/,
-408,D,False,집코바,메인,인스타그램 @dule.table,instagram.com,https://www.instagram.com/reel/DfieIVdP4W8/,
-409,D,False,부타노가쿠니 (삼겹살 간장조림),메인,인스타그램 @salim.hwang,instagram.com,https://www.instagram.com/reel/DfrMhOQhhIv/,
-410,D,False,대왕 연어초밥 (대만 스타일),밥,인스타그램 @yummandu_,instagram.com,https://www.instagram.com/reel/DeDlWm4hQBA/,
-412,D,False,마늘폭탄갈비살,메인,인스타그램 릴스,instagram.com,https://www.instagram.com/reel/Df0vcSKCs3Y/,
-413,D,False,전자레인지 김파스타,면,인스타그램 @food_radio_,instagram.com,https://www.instagram.com/reel/Df17y4XTEaL/,
-414,D,False,가리비 솥밥,밥,인스타그램 @di_yori,instagram.com,https://www.instagram.com/reel/Df2BbMuTsnK/,
-415,D,False,고등어 솥밥,밥,인스타그램 @sonmeallog,instagram.com,https://www.instagram.com/reel/Df4EiyGBPMm/,
-416,D,False,갈비 솥밥,밥,인스타그램 @soo.sumi,instagram.com,https://www.instagram.com/reel/Df1rq3ISU4A/,
-419,D,False,대왕 연어초밥 (간장소스),밥,인스타그램 @livelong_food,instagram.com,https://www.instagram.com/reel/DdYvn2WyW07/,
-171,D,False,닭다리살 양송이 버터볶음,메인,"Threads @todaynote_j ""닭다리살 양송이 버터볶음"" (본문 텍스트)",threads.com,https://www.threads.com/@todaynote_j/post/DfChtoHH7hj,
-5,D,False,홍석천 팟타이,면,백만뷰 집쿡라이브 CJ ENM 200816 (영상 댓글 레시피),youtu.be,https://youtu.be/7KcX-u5b_tc,
-165,D,False,수비드 통삼겹살,메인,YouTube 영상 설명란 레시피 (자막 없음),youtu.be,https://youtu.be/PSyXy-aoTcw,
-418,D,False,호텔식 스크램블 에그,아침,YouTube 라꼰즈 | Rakkonz (집밥 백선생 편집),youtu.be,https://youtu.be/aazMtxj2UZk,
-154,D,False,닭똥집 볶음,반찬,-,youtube.com,https://youtube.com/shorts/pSFEQGJPfvo,
-169,D,False,통삼겹 카레,메인,"YouTube Shorts ""최강록 셰프식 통삼겹 카레"" (한국어 자막+화면)",youtube.com,https://youtube.com/shorts/n0uG9D3gDFg,
-178,D,False,아게다시도후,반찬,"YouTube 후니아재 hoonilife ""일본에서 유명한 두부요리 아게다시도후""",youtube.com,https://www.youtube.com/watch?v=BatOSAfC_Vg,
+﻿id,tier,kid,title,category,source,domain,url,offers,checked
+269,A,True,피에스타 샐러드,샐러드,National Kidney Foundation,kidney.org,https://www.kidney.org/nutrition/recipes/fiesta-salad,열량·탄수화물·단백질·나트륨·칼륨·인,원문 확인
+136,B,True,아라비아타 소시지 파스타,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/arrabbiata-pasta-with-sausages/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
+137,B,True,BBQ 풀드포크 버거,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/bbq-pulled-pork-burgers/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
+138,B,True,브로콜리·콜리플라워 치즈,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/broc-cauli-cheese/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
+139,B,True,치킨 채소 라자냐,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/chicken-and-vegetable-lasagne/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
+140,B,True,치킨 파히타 (Kidney Care UK),메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/chicken-fajitas/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
+141,B,True,치킨 핫팟,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/chicken-hotpot/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
+142,B,True,치킨 브로콜리 크림 파스타,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/creamy-pasta-with-chicken-and-broccoli/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
+143,B,True,시금치 치즈 크림 탈리아텔레,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/creamy-spinach-and-cheese-tagliatelle/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
+144,B,True,바삭 채소 프리터,반찬,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/crispy-vegetable-fritters/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
+145,B,True,간단 소고기 채소 누들,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/easy-beef-and-vegetable-noodles/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
+146,B,True,그린 맥 앤 치즈,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/green-mac-and-cheese/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
+147,B,True,지중해식 치킨 피타,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/mediterranean-chicken-pittas/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
+148,B,True,참치 올리브 푸타네스카 스파게티,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/puttanesca-spaghetti-with-tuna-and-olives/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
+149,B,True,구운 홍피망 치킨 파스타 베이크,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/roasted-red-pepper-and-chicken-pasta-bake/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
+150,B,True,소시지 앤 매시 파이,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/sausage-and-mash-pie/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
+151,B,True,소시지 앤 매시,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/sausage-and-mash/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
+152,B,True,심플 라자냐,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/simple-lasagne/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
+153,B,True,시금치 파인너트 라자냐,메인,Kidney Care UK,kidneycareuk.org,https://kidneycareuk.org/get-support/healthy-diet-support/kidney-kitchen/recipe-index/spinach-and-pine-nut-lasagne/,kcal·탄수화물 + 저염/저칼륨/저인 표시,사이트 샘플 기준
+78,B,False,된장 닭구이,메인,Aaron and Claire,aaronandclaire.com,https://aaronandclaire.com/doenjang-dakgui-doenjang-marinated-chicken/,열량·탄수화물·단백질·나트륨·칼륨 (인 없음),원문 확인
+81,B,False,두반장 생선조림,메인,China Sichuan Food,chinasichuanfood.com,https://www.chinasichuanfood.com/braised-spicy-fish-sichuan-style/,열량·탄수화물·단백질·나트륨·칼륨 (인 없음),원문 확인
+86,B,False,사천식 소고기 셀러리 볶음,메인,China Sichuan Food,chinasichuanfood.com,https://www.chinasichuanfood.com/shredded-beef-szechuan-style/,열량·탄수화물·단백질·나트륨·칼륨 (인 없음),원문 확인
+70,B,False,팟키마오,면,Christie at Home,christieathome.com,https://christieathome.com/blog/thai-drunken-noodles-pad-kee-mao/,열량·탄수화물·단백질·나트륨·칼륨 (인 없음),원문 확인
+1,B,False,원팟 터메릭 치킨 라이스,밥,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/turmeric-chicken-and-rice/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+2,B,False,스위트포테이토 부리토 볼,밥,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/sweet-potato-burrito-bowls/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+3,B,False,베트남 새우 쌀국수면 볼,면,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/30-minute-vietnamese-shrimp-and-rice-noodle-bowls/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+4,B,False,참깨 쌀국수면 샐러드,면,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/rice-noodle-salad/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+6,B,False,골든 칠면조 라이스 스킬렛,밥,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/ground-turkey-and-rice-skillet/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+7,B,False,세이지 칠면조 미트볼 호박 오르조,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/sage-turkey-meatballs-with-pumpkin-orzo/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+8,B,False,치킨 라이스 수프,국,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/immune-boosting-chicken-and-rice-soup/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+9,B,False,30분 브로콜리 볶음밥 강황 타히니 소스,밥,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/30-minute-broccoli-fried-rice-with-turmeric-tahini-sauce/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+10,B,False,갈릭 파르메산 구운 콜리플라워,반찬,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/parmesan-roasted-cauliflower/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+11,B,False,구운 주키니 파스타샐러드,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/roasted-zucchini-pasta-salad/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+12,B,False,구운 채소 글로우볼,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/roasted-veggie-glow-bowls/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+13,B,False,레몬 그릭 병아리콩 수프,국,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/greek-chickpea-soup/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+14,B,False,레몬 렌틸 구운 가지 샐러드,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/lentil-and-roasted-eggplant-salad/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+15,B,False,망고 미소 연어 볼,밥,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/mango-miso-salmon-bowls/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+16,B,False,베스트 렌틸 수프,국,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/lentil-soup-recipe/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+17,B,False,브로콜리 볶음,반찬,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/sauteed-broccoli-recipe/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+18,B,False,사과 오트밀 브레드,간식,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/apple-harvest-oatmeal-bread/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+19,B,False,새우 스캄피 오르조,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/shrimp-scampi-orzo/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+20,B,False,새우 채소 로메인 볶음면,면,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/shrimp-and-veggie-lo-mein/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+21,B,False,새우 타코 크리미 살사 베르데,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/easy-shrimp-tacos/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+22,B,False,스킬렛 포블라노 호박 엔칠라다,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/skillet-poblano-and-pumpkin-enchiladas/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+23,B,False,시금치 아티초크 스킬렛 엔칠라다,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/spinach-artichoke-skillet-enchiladas/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+24,B,False,시금치 아티초크 연어 스킬렛,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/spinach-artichoke-salmon-skillet/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+25,B,False,시트러스 미소 진저 당근 샐러드,반찬,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/carrot-salad/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+26,B,False,시트팬 버터넛 소시지 뇨끼,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/sheet-pan-butternut-squash-and-sausage-gnocchi/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+27,B,False,시트팬 치킨소시지 채소구이,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/sheet-pan-chicken-sausage-and-veggies/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+28,B,False,시트팬 칠리 레몬 연어,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/sheet-pan-chili-lemon-salmon/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+29,B,False,시트팬 페스토 뇨끼,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/sheet-pan-pesto-gnocchi/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+30,B,False,연어 타코 아보카도 크레마,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/salmon-tacos/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+31,B,False,오렌지 메이플 글레이즈 연어,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/orangemapleglazedsalmon/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+32,B,False,와일드라이스 버섯 수프,국,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/wild-rice-mixed-mushroom-soup/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+33,B,False,원스킬렛 레몬 페퍼 새우 오르조,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/one-skillet-lemon-pepper-shrimp-and-orzo/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+34,B,False,원팟 스페인식 콩밥,밥,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/spanish-rice-and-beans-one-pot/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+35,B,False,원팟 토스카나 소시지 렌틸콩,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/sausage-and-lentils/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+36,B,False,원팟 하리사 새우 페타 오르조,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/one-pot-harissa-shrimp-and-feta-orzo/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+37,B,False,원팬 옥수수 코코넛 만두,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/one-pan-sweet-corn-coconut-dumplings/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+38,B,False,원팬 크리미 토마토 파스타,면,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/one-pan-pasta/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+39,B,False,지중해 렌틸 샐러드,반찬,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/mediterranean-lentil-salad/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+40,B,False,지중해 파스타,면,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/mediterranean-pasta/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+41,B,False,치킨 소시지 오르조 방울토마토,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/one-pan-chicken-sausage-orzo/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+42,B,False,치킨 엔칠라다 퀴노아 베이크,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/easy-chicken-enchilada-quinoa-bake/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+43,B,False,치킨 캐슈 크런치 샐러드,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/chicken-cashew-salad/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+44,B,False,치폴레 비네그레트,소스,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/copycat-chipotle-vinaigrette/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+45,B,False,치폴레 새우 타코 아보카도 망고 살사,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/chipotle-shrimp-tacos/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+46,B,False,퀴노아 채소 파워볼,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/quinoa-power-bowls-with-maple-chipotle-brussels-and-smoky-butternut-squash/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+47,B,False,크리스피 치폴레 블랙빈 타코,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/black-bean-tacos/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+48,B,False,태국식 땅콩 치킨 퀴노아,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/thai-peanut-chicken-quinoa/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+49,B,False,토마토 버터빈 스튜,국,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/butter-bean-stew/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+50,B,False,토스카나 칠면조 흰강낭콩 스킬렛,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/tuscan-turkey-and-white-bean-skillet/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+51,B,False,파스타 에 체치 병아리콩 스튜,국,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/pasta-e-ceci/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+52,B,False,하베스트 가을 샐러드 캐러멜 샬롯 드레싱,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/harvest-fall-salad/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+53,B,False,허니 세서미 치킨 시트팬,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/honey-sesame-chicken/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+54,B,False,호박 프로틴 팬케이크,간식,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/pumpkin-protein-pancakes/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+55,B,False,흰강낭콩 레몬 수프,국,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/white-bean-soup/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+163,B,False,발사믹 두부,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/balsamic-tofu-20-minutes/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+164,B,False,데리야키 두부 브로콜리,메인,Dishing Out Health,dishingouthealth.com,https://dishingouthealth.com/teriyaki-tofu-and-broccoli/,"열량·나트륨 등 (저자 계산), 인 없음",사이트 샘플 기준
+58,B,False,치킨 파인애플 카레 볶음밥,밥,Hungry in Thailand,hungryinthailand.com,https://hungryinthailand.com/chicken-pineapple-fried-rice/,열량·탄수화물·단백질·나트륨·칼륨 (인 없음),원문 확인
+59,B,False,카이란 치킨 볶음밥,밥,Hungry in Thailand,hungryinthailand.com,https://hungryinthailand.com/chicken-thai-fried-rice/,열량·탄수화물·단백질·나트륨·칼륨 (인 없음),원문 확인
+61,B,False,오야코동,밥,Just One Cookbook,justonecookbook.com,https://www.justonecookbook.com/oyakodon/,"열량·나트륨·칼륨 등, 인 없음",사이트 샘플 기준
+62,B,False,규동,밥,Just One Cookbook,justonecookbook.com,https://www.justonecookbook.com/gyudon/,"열량·나트륨·칼륨 등, 인 없음",사이트 샘플 기준
+72,B,False,데리야키 돼지고기 덮밥,밥,Just One Cookbook,justonecookbook.com,https://www.justonecookbook.com/teriyaki-pork-donburi/,"열량·나트륨·칼륨 등, 인 없음",사이트 샘플 기준
+73,B,False,장어덮밥,밥,Just One Cookbook,justonecookbook.com,https://www.justonecookbook.com/unagi-don/,"열량·나트륨·칼륨 등, 인 없음",사이트 샘플 기준
+82,B,False,메기 카바야키 덮밥,밥,Just One Cookbook,justonecookbook.com,https://www.justonecookbook.com/catfish-kabayaki/,"열량·나트륨·칼륨 등, 인 없음",사이트 샘플 기준
+83,B,False,방어 데리야끼,메인,Just One Cookbook,justonecookbook.com,https://www.justonecookbook.com/yellowtail-teriyaki/,"열량·나트륨·칼륨 등, 인 없음",사이트 샘플 기준
+87,B,False,소고기 데리야끼 스테이크,메인,Just One Cookbook,justonecookbook.com,https://www.justonecookbook.com/beef-teriyaki/,"열량·나트륨·칼륨 등, 인 없음",사이트 샘플 기준
+89,B,False,연어 데리야끼,메인,Just One Cookbook,justonecookbook.com,https://www.justonecookbook.com/teriyaki-salmon-recipe/,"열량·나트륨·칼륨 등, 인 없음",사이트 샘플 기준
+93,B,False,카바야키 타레,소스,Just One Cookbook,justonecookbook.com,https://www.justonecookbook.com/homemade-unagi-sauce/,"열량·나트륨·칼륨 등, 인 없음",사이트 샘플 기준
+161,B,False,두부 닭고기 함박스테이크,메인,Just One Cookbook,justonecookbook.com,https://www.justonecookbook.com/chicken-tofu-hamburger-steak/,"열량·나트륨·칼륨 등, 인 없음",사이트 샘플 기준
+69,B,False,소고기 차우펀,면,Pups with Chopsticks,pupswithchopsticks.com,https://pupswithchopsticks.com/beef-chow-fun/,열량·탄수화물·단백질·나트륨 (인 없음),원문 확인
+56,B,False,카오팟까이 닭고기 볶음밥,밥,Rachel Cooks Thai,rachelcooksthai.com,https://rachelcooksthai.com/khao-pad-gai/,열량·탄수화물·단백질·나트륨·칼륨 (인 없음),원문 확인
+67,B,False,팟씨유,면,Rachel Cooks Thai,rachelcooksthai.com,https://rachelcooksthai.com/pad-see-ew/,열량·탄수화물·단백질·나트륨·칼륨 (인 없음),원문 확인
+68,B,False,랏나,면,Rachel Cooks Thai,rachelcooksthai.com,https://rachelcooksthai.com/rad-na/,열량·탄수화물·단백질·나트륨·칼륨 (인 없음),원문 확인
+77,B,False,데리야끼 치킨 미트볼,메인,RecipeTin Eats,recipetineats.com,https://www.recipetineats.com/teriyaki-chicken-meatballs/,열량 (인 없음),원문 확인
+88,B,False,어향가지 돼지고기 볶음,메인,RecipeTin Eats,recipetineats.com,https://www.recipetineats.com/chinese-eggplant-and-minced-pork/,열량·탄수화물·단백질·나트륨·칼륨 (인 없음),원문 확인
+75,B,False,대만식 우육면,면,Red House Spice,redhousespice.com,https://redhousespice.com/taiwanese-beef-noodle-soup/,열량·탄수화물·단백질·나트륨·칼륨 (인 없음),원문 확인
+57,B,False,태국식 치킨 토마토 볶음밥,밥,Thai Caliente,thaicaliente.com,https://thaicaliente.com/thai-fried-rice-with-chicken-khao-phat-gai/,열량·탄수화물·단백질·나트륨·칼륨 (인 없음),원문 확인
+63,B,False,데리야키 치킨 덮밥,밥,The Heirloom Pantry,theheirloompantry.co,https://theheirloompantry.co/teriyaki-chicken-bowl-donburi/,열량·탄수화물·단백질·나트륨·칼륨 (인 없음),원문 확인
+71,B,False,회과육,메인,The Woks of Life,thewoksoflife.com,https://thewoksoflife.com/twice-cooked-pork/,열량·탄수화물·단백질·나트륨·칼륨 (인 없음),원문 확인
+85,B,False,사천 삼초계,메인,The Woks of Life,thewoksoflife.com,https://thewoksoflife.com/sichuan-three-pepper-chicken/,열량·탄수화물·단백질·나트륨·칼륨 (인 없음),원문 확인
+162,B,False,가상두부 돼지고기 두부볶음,메인,The Woks of Life,thewoksoflife.com,https://thewoksoflife.com/home-style-tofu-stir-fry/,열량·탄수화물·단백질·나트륨·칼륨 (인 없음),원문 확인
+76,B,False,데리야끼 새우,메인,The Wooden Skillet,thewoodenskillet.com,https://thewoodenskillet.com/teriyaki-shrimp/,열량·탄수화물·단백질·나트륨·칼륨 (인 없음),원문 확인
+109,D,True,우엉밥,밥,대한신장학회,ksn.or.kr,https://ksn.or.kr/upload/general/ebook/1%EA%B6%8C%20%ED%88%AC%EC%84%9D%20%EC%A0%84%20%EB%8B%A8%EA%B3%84%EC%9D%98%20%EB%A7%8C%EC%84%B1%EC%BD%A9%ED%8C%A5%EB%B3%91%20%ED%99%98%EC%9E%90%EB%A5%BC%20%EC%9C%84%ED%95%9C%20%EC%98%81%EC%96%91-%EC%8B%9D%EC%83%9D%ED%99%9C%20%EA%B4%80%EB%A6%AC.pdf,영양 정보 없음 (재료가 g 단위라 계산하기 쉬움),원문 확인
+110,D,True,"닭가슴살 샐러드, 가지구이와 발사믹 소스",메인,대한신장학회,ksn.or.kr,https://ksn.or.kr/upload/general/ebook/1%EA%B6%8C%20%ED%88%AC%EC%84%9D%20%EC%A0%84%20%EB%8B%A8%EA%B3%84%EC%9D%98%20%EB%A7%8C%EC%84%B1%EC%BD%A9%ED%8C%A5%EB%B3%91%20%ED%99%98%EC%9E%90%EB%A5%BC%20%EC%9C%84%ED%95%9C%20%EC%98%81%EC%96%91-%EC%8B%9D%EC%83%9D%ED%99%9C%20%EA%B4%80%EB%A6%AC.pdf,영양 정보 없음 (재료가 g 단위라 계산하기 쉬움),원문 확인
+111,D,True,저염오이김치,반찬,대한신장학회,ksn.or.kr,https://ksn.or.kr/upload/general/ebook/1%EA%B6%8C%20%ED%88%AC%EC%84%9D%20%EC%A0%84%20%EB%8B%A8%EA%B3%84%EC%9D%98%20%EB%A7%8C%EC%84%B1%EC%BD%A9%ED%8C%A5%EB%B3%91%20%ED%99%98%EC%9E%90%EB%A5%BC%20%EC%9C%84%ED%95%9C%20%EC%98%81%EC%96%91-%EC%8B%9D%EC%83%9D%ED%99%9C%20%EA%B4%80%EB%A6%AC.pdf,영양 정보 없음 (재료가 g 단위라 계산하기 쉬움),원문 확인
+0,D,False,태국식 계란 볶음밥,밥,직접 기록,(URL 없음),,,사이트 샘플 기준
+95,D,False,치킨 알프레도 스파게티스쿼시,메인,-,(URL 없음),,,사이트 샘플 기준
+96,D,False,치킨 페타 원팬 파스타,메인,-,(URL 없음),,,사이트 샘플 기준
+97,D,False,크리미 레몬 치킨 파스타,메인,-,(URL 없음),,,사이트 샘플 기준
+98,D,False,페스토 치킨 파스타 베이크,메인,-,(URL 없음),,,사이트 샘플 기준
+99,D,False,레몬 페타 치킨 오르조,메인,-,(URL 없음),,,사이트 샘플 기준
+100,D,False,지중해 토마토 올리브 치킨,메인,-,(URL 없음),,,사이트 샘플 기준
+101,D,False,크리미 치킨 펜네,메인,-,(URL 없음),,,사이트 샘플 기준
+102,D,False,레몬그라스 치킨 쌀국수면 볼,면,-,(URL 없음),,,사이트 샘플 기준
+103,D,False,분짜 돼지고기 미트볼,면,-,(URL 없음),,,사이트 샘플 기준
+104,D,False,치킨 포 가,면,-,(URL 없음),,,사이트 샘플 기준
+172,D,False,갈아서 만드는 감자구이,반찬,"사용자 붙여넣기 텍스트 ""갈아서 만드는 감자구이 (+ 고구마 버전)""",(URL 없음),user-paste,,사이트 샘플 기준
+173,D,False,고구마구이,반찬,"사용자 붙여넣기 텍스트 ""갈아서 만드는 감자구이 (+ 고구마 버전)"" 메모",(URL 없음),user-paste,,사이트 샘플 기준
+406,D,False,연어장,반찬,지인 레시피,(URL 없음),,,사이트 샘플 기준
+417,D,False,수비드 풀드포크,메인,직접 기록,(URL 없음),,,사이트 샘플 기준
+64,D,False,닭가슴살 덮밥,밥,만개의레시피,10000recipe.com,https://www.10000recipe.com/recipe/7007123,영양 정보 없음,원문 확인
+65,D,False,소고기 덮밥,밥,만개의레시피,10000recipe.com,https://www.10000recipe.com/recipe/6968408,영양 정보 없음,원문 확인
+66,D,False,돼지고기 김치찌개,국,만개의레시피,10000recipe.com,https://www.10000recipe.com/recipe/6961294,영양 정보 없음,원문 확인
+79,D,False,된장 삼겹살구이,메인,만개의레시피,10000recipe.com,https://www.10000recipe.com/recipe/7017228,영양 정보 없음,원문 확인
+108,D,False,볶음쌀국수,면,만개의레시피,10000recipe.com,https://www.10000recipe.com/recipe/6892011,영양 정보 없음,원문 확인
+157,D,False,간장 두부조림,반찬,만개의레시피,10000recipe.com,https://www.10000recipe.com/recipe/6885373,영양 정보 없음,원문 확인
+158,D,False,두부계란덮밥,밥,만개의레시피,10000recipe.com,https://www.10000recipe.com/recipe/7065344,영양 정보 없음,원문 확인
+159,D,False,닭가슴살 두부 동그랑땡,반찬,만개의레시피,10000recipe.com,https://www.10000recipe.com/recipe/7008424,영양 정보 없음,원문 확인
+160,D,False,두부 데리야끼 덮밥,밥,만개의레시피,10000recipe.com,https://www.10000recipe.com/recipe/7055257,영양 정보 없음,원문 확인
+411,D,False,연어 새우 초밥 케이크,밥,"BANJO FOODS ""Sushi cake"" + chef-choice 블로그(간장새우 소스)",banjo.co.jp,https://banjo.co.jp/en/recipes/206,영양 정보 없음,원문 확인
+80,D,False,된장 연어구이,메인,Beyond Kimchee,beyondkimchee.com,https://www.beyondkimchee.com/soybean-paste-glazed-salmon/,영양 정보 없음,원문 확인
+107,D,False,꾸어이띠여우 쿠어 까이,면,Hot Thai Kitchen,hot-thai-kitchen.com,https://hot-thai-kitchen.com/rice-noodles-chicken-guay-tiew-kua-gai/,영양 정보 없음,원문 확인
+105,D,False,소고기 무 솥밥,밥,Instagram @dailybbokki,instagram.com,https://www.instagram.com/reel/DeEUaPmq5Am/,,사이트 샘플 기준
+106,D,False,매콤 우삼겹 갈비탕,국,Instagram @jjongal.kim,instagram.com,https://www.instagram.com/reel/DeGwsKYzEYT/,,사이트 샘플 기준
+155,D,False,감바스 짜파게티,면,Instagram reel @sudal_foodie (캡션+음성 전사),instagram.com,https://www.instagram.com/reel/Des9lWCIQsL/,,사이트 샘플 기준
+156,D,False,오징어볶음,반찬,"Instagram reel (캡션+화면 자막, 음성 트랙 없음)",instagram.com,https://www.instagram.com/reel/DeREh8OzGu7/,,사이트 샘플 기준
+166,D,False,지도리우동,면,"Instagram reel (캡션+화면 자막, 음성 트랙 없음)",instagram.com,https://www.instagram.com/reel/De6DaURhZg4/,,사이트 샘플 기준
+167,D,False,니꾸쟈가,메인,"Instagram reel @sagwa.haus (캡션 레시피, 음성 트랙 없음)",instagram.com,https://www.instagram.com/reel/Deyjg4GSYGD/,,사이트 샘플 기준
+168,D,False,고구마 맛탕,간식,"Instagram reel (캡션+화면 자막, 음성은 음악뿐)",instagram.com,https://www.instagram.com/reel/DdXpHoYSU2k/,,사이트 샘플 기준
+170,D,False,돈테키,메인,"Instagram reel @plate_on_ (캡션 레시피, 음성 트랙 없음)",instagram.com,https://www.instagram.com/reel/DaUehSQMawx/,,사이트 샘플 기준
+174,D,False,마라샹궈,메인,"Instagram @sukkitchen_ ""집에서 하이디라오""",instagram.com,https://www.instagram.com/reel/DfHeoSRzTK-/,,사이트 샘플 기준
+175,D,False,계란김밥,메인,"Instagram @sukkitchen_ ""집에서 하이디라오""",instagram.com,https://www.instagram.com/reel/DfHeoSRzTK-/,,사이트 샘플 기준
+176,D,False,버터치킨카레,메인,"Instagram @eongcook ""버터치킨카레""",instagram.com,https://www.instagram.com/reel/DeeDuGAMzKw/,,사이트 샘플 기준
+177,D,False,알배추수육,메인,"Instagram @32_cactus ""초간단 20분 알배추수육""",instagram.com,https://www.instagram.com/reel/DdafanXz88C/,,사이트 샘플 기준
+179,D,False,우삼겹들깨수제비,메인,"Instagram @jaytable_ ""초초간단 우삼겹 들깨수제비"" (캡션만 사용, 댓글 미사용)",instagram.com,https://www.instagram.com/reel/DfO5eDehFqh/,,사이트 샘플 기준
+180,D,False,계란참치주먹밥,간식,"Instagram @bop.pt (밥피티), 레시피 출처 @food.recipe942",instagram.com,https://www.instagram.com/reel/DewFdl5KOxU/,,사이트 샘플 기준
+407,D,False,닭고기 부추 계란덮밥,밥,인스타그램 @꽁이네 집밥사랑,instagram.com,https://www.instagram.com/reel/Dfwgvk5IqDe/,,사이트 샘플 기준
+408,D,False,집코바,메인,인스타그램 @dule.table,instagram.com,https://www.instagram.com/reel/DfieIVdP4W8/,,사이트 샘플 기준
+409,D,False,부타노가쿠니 (삼겹살 간장조림),메인,인스타그램 @salim.hwang,instagram.com,https://www.instagram.com/reel/DfrMhOQhhIv/,,사이트 샘플 기준
+410,D,False,대왕 연어초밥 (대만 스타일),밥,인스타그램 @yummandu_,instagram.com,https://www.instagram.com/reel/DeDlWm4hQBA/,,사이트 샘플 기준
+412,D,False,마늘폭탄갈비살,메인,인스타그램 릴스,instagram.com,https://www.instagram.com/reel/Df0vcSKCs3Y/,,사이트 샘플 기준
+413,D,False,전자레인지 김파스타,면,인스타그램 @food_radio_,instagram.com,https://www.instagram.com/reel/Df17y4XTEaL/,,사이트 샘플 기준
+414,D,False,가리비 솥밥,밥,인스타그램 @di_yori,instagram.com,https://www.instagram.com/reel/Df2BbMuTsnK/,,사이트 샘플 기준
+415,D,False,고등어 솥밥,밥,인스타그램 @sonmeallog,instagram.com,https://www.instagram.com/reel/Df4EiyGBPMm/,,사이트 샘플 기준
+416,D,False,갈비 솥밥,밥,인스타그램 @soo.sumi,instagram.com,https://www.instagram.com/reel/Df1rq3ISU4A/,,사이트 샘플 기준
+419,D,False,대왕 연어초밥 (간장소스),밥,인스타그램 @livelong_food,instagram.com,https://www.instagram.com/reel/DdYvn2WyW07/,,사이트 샘플 기준
+92,D,False,정어리 카바야키,메인,RecipeTin Japan,japan.recipetineats.com,https://japan.recipetineats.com/sardine-kabayaki-grilled-sardines-with-sweet-soy-glaze/,영양 정보 없음,원문 확인
+74,D,False,맥적,메인,Korean Bapsang,koreanbapsang.com,https://www.koreanbapsang.com/dwaejigogi-doenjang-gui/,영양 정보 없음,원문 확인
+84,D,False,보쌈 수육,메인,Korean Bapsang,koreanbapsang.com,https://www.koreanbapsang.com/bossam-boiled-pork-wraps/,영양 정보 없음,원문 확인
+94,D,False,해물 된장찌개,국,Korean Bapsang,koreanbapsang.com,https://www.koreanbapsang.com/seafood-doenjang-jjigae/,영양 정보 없음,원문 확인
+90,D,False,연어 카바야키 덮밥,밥,Mr Pantry,mrpantry.com,https://www.mrpantry.com/recipes/salmon-kabayaki-don-japanese-glazed-salmon-rice-bowl,영양 정보 없음,원문 확인
+60,D,False,태국식 카오팟 치킨 채소 볶음밥,밥,Thai Foodie,thai-foodie.com,https://thai-foodie.com/thaifood/thai-stir-fried-rice-recipe-khaw-pad-gai/,영양 정보 없음,원문 확인
+171,D,False,닭다리살 양송이 버터볶음,메인,"Threads @todaynote_j ""닭다리살 양송이 버터볶음"" (본문 텍스트)",threads.com,https://www.threads.com/@todaynote_j/post/DfChtoHH7hj,,사이트 샘플 기준
+91,D,False,장어소스 닭꼬치,메인,Lee Kum Kee,usa.lkk.com,https://usa.lkk.com/en/foodservices/recipes/yakitori-recipe,영양 정보 없음,원문 확인
+5,D,False,홍석천 팟타이,면,백만뷰 집쿡라이브 CJ ENM 200816 (영상 댓글 레시피),youtu.be,https://youtu.be/7KcX-u5b_tc,,사이트 샘플 기준
+165,D,False,수비드 통삼겹살,메인,YouTube 영상 설명란 레시피 (자막 없음),youtu.be,https://youtu.be/PSyXy-aoTcw,,사이트 샘플 기준
+418,D,False,호텔식 스크램블 에그,아침,YouTube 라꼰즈 | Rakkonz (집밥 백선생 편집),youtu.be,https://youtu.be/aazMtxj2UZk,,사이트 샘플 기준
+154,D,False,닭똥집 볶음,반찬,-,youtube.com,https://youtube.com/shorts/pSFEQGJPfvo,,사이트 샘플 기준
+169,D,False,통삼겹 카레,메인,"YouTube Shorts ""최강록 셰프식 통삼겹 카레"" (한국어 자막+화면)",youtube.com,https://youtube.com/shorts/n0uG9D3gDFg,,사이트 샘플 기준
+178,D,False,아게다시도후,반찬,"YouTube 후니아재 hoonilife ""일본에서 유명한 두부요리 아게다시도후""",youtube.com,https://www.youtube.com/watch?v=BatOSAfC_Vg,,사이트 샘플 기준
